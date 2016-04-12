@@ -1,0 +1,3061 @@
+ccopy_reg
+_reconstructor
+p0
+(cpandas.core.frame
+DataFrame
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'_metadata'
+p6
+(lp7
+sS'_typ'
+p8
+S'dataframe'
+p9
+sS'_data'
+p10
+g0
+(cpandas.core.internals
+BlockManager
+p11
+g2
+Ntp12
+Rp13
+((lp14
+cpandas.core.index
+_new_Index
+p15
+(cpandas.core.index
+Index
+p16
+(dp17
+S'data'
+p18
+cnumpy.core.multiarray
+_reconstruct
+p19
+(cnumpy
+ndarray
+p20
+(I0
+tp21
+S'b'
+p22
+tp23
+Rp24
+(I1
+(I4
+tp25
+cnumpy
+dtype
+p26
+(S'O8'
+p27
+I0
+I1
+tp28
+Rp29
+(I3
+S'|'
+p30
+NNNI-1
+I-1
+I63
+tp31
+bI00
+(lp32
+S'id'
+p33
+aS'timestamp'
+p34
+aS'title'
+p35
+aS'text'
+p36
+atp37
+bsS'name'
+p38
+Nstp39
+Rp40
+ag15
+(cpandas.core.index
+Int64Index
+p41
+(dp42
+g18
+g19
+(g20
+(I0
+tp43
+g22
+tp44
+Rp45
+(I1
+(I359
+tp46
+g26
+(S'i8'
+p47
+I0
+I1
+tp48
+Rp49
+(I3
+S'<'
+p50
+NNNI-1
+I-1
+I0
+tp51
+bI00
+S'\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x00\x00\x00\x00\r\x00\x00\x00\x00\x00\x00\x00\x0e\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x00\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x00\x00\x00\x00\x00\x18\x00\x00\x00\x00\x00\x00\x00\x19\x00\x00\x00\x00\x00\x00\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x1b\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x00\x00\x00\x00\x1e\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00!\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00#\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x00\x00\x00\x00\x00&\x00\x00\x00\x00\x00\x00\x00\'\x00\x00\x00\x00\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00)\x00\x00\x00\x00\x00\x00\x00*\x00\x00\x00\x00\x00\x00\x00+\x00\x00\x00\x00\x00\x00\x00,\x00\x00\x00\x00\x00\x00\x00-\x00\x00\x00\x00\x00\x00\x00.\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x000\x00\x00\x00\x00\x00\x00\x001\x00\x00\x00\x00\x00\x00\x002\x00\x00\x00\x00\x00\x00\x003\x00\x00\x00\x00\x00\x00\x004\x00\x00\x00\x00\x00\x00\x005\x00\x00\x00\x00\x00\x00\x006\x00\x00\x00\x00\x00\x00\x007\x00\x00\x00\x00\x00\x00\x008\x00\x00\x00\x00\x00\x00\x009\x00\x00\x00\x00\x00\x00\x00:\x00\x00\x00\x00\x00\x00\x00;\x00\x00\x00\x00\x00\x00\x00<\x00\x00\x00\x00\x00\x00\x00=\x00\x00\x00\x00\x00\x00\x00>\x00\x00\x00\x00\x00\x00\x00?\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00A\x00\x00\x00\x00\x00\x00\x00B\x00\x00\x00\x00\x00\x00\x00C\x00\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00E\x00\x00\x00\x00\x00\x00\x00F\x00\x00\x00\x00\x00\x00\x00G\x00\x00\x00\x00\x00\x00\x00H\x00\x00\x00\x00\x00\x00\x00I\x00\x00\x00\x00\x00\x00\x00J\x00\x00\x00\x00\x00\x00\x00K\x00\x00\x00\x00\x00\x00\x00L\x00\x00\x00\x00\x00\x00\x00M\x00\x00\x00\x00\x00\x00\x00N\x00\x00\x00\x00\x00\x00\x00O\x00\x00\x00\x00\x00\x00\x00P\x00\x00\x00\x00\x00\x00\x00Q\x00\x00\x00\x00\x00\x00\x00R\x00\x00\x00\x00\x00\x00\x00S\x00\x00\x00\x00\x00\x00\x00T\x00\x00\x00\x00\x00\x00\x00U\x00\x00\x00\x00\x00\x00\x00V\x00\x00\x00\x00\x00\x00\x00W\x00\x00\x00\x00\x00\x00\x00X\x00\x00\x00\x00\x00\x00\x00Y\x00\x00\x00\x00\x00\x00\x00Z\x00\x00\x00\x00\x00\x00\x00[\x00\x00\x00\x00\x00\x00\x00\\\x00\x00\x00\x00\x00\x00\x00]\x00\x00\x00\x00\x00\x00\x00^\x00\x00\x00\x00\x00\x00\x00_\x00\x00\x00\x00\x00\x00\x00`\x00\x00\x00\x00\x00\x00\x00a\x00\x00\x00\x00\x00\x00\x00b\x00\x00\x00\x00\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x00\x00\x00\x00e\x00\x00\x00\x00\x00\x00\x00f\x00\x00\x00\x00\x00\x00\x00g\x00\x00\x00\x00\x00\x00\x00h\x00\x00\x00\x00\x00\x00\x00i\x00\x00\x00\x00\x00\x00\x00j\x00\x00\x00\x00\x00\x00\x00k\x00\x00\x00\x00\x00\x00\x00l\x00\x00\x00\x00\x00\x00\x00m\x00\x00\x00\x00\x00\x00\x00n\x00\x00\x00\x00\x00\x00\x00o\x00\x00\x00\x00\x00\x00\x00p\x00\x00\x00\x00\x00\x00\x00q\x00\x00\x00\x00\x00\x00\x00r\x00\x00\x00\x00\x00\x00\x00s\x00\x00\x00\x00\x00\x00\x00t\x00\x00\x00\x00\x00\x00\x00u\x00\x00\x00\x00\x00\x00\x00v\x00\x00\x00\x00\x00\x00\x00w\x00\x00\x00\x00\x00\x00\x00x\x00\x00\x00\x00\x00\x00\x00y\x00\x00\x00\x00\x00\x00\x00z\x00\x00\x00\x00\x00\x00\x00{\x00\x00\x00\x00\x00\x00\x00|\x00\x00\x00\x00\x00\x00\x00}\x00\x00\x00\x00\x00\x00\x00~\x00\x00\x00\x00\x00\x00\x00\x7f\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x82\x00\x00\x00\x00\x00\x00\x00\x83\x00\x00\x00\x00\x00\x00\x00\x84\x00\x00\x00\x00\x00\x00\x00\x85\x00\x00\x00\x00\x00\x00\x00\x86\x00\x00\x00\x00\x00\x00\x00\x87\x00\x00\x00\x00\x00\x00\x00\x88\x00\x00\x00\x00\x00\x00\x00\x89\x00\x00\x00\x00\x00\x00\x00\x8a\x00\x00\x00\x00\x00\x00\x00\x8b\x00\x00\x00\x00\x00\x00\x00\x8c\x00\x00\x00\x00\x00\x00\x00\x8d\x00\x00\x00\x00\x00\x00\x00\x8e\x00\x00\x00\x00\x00\x00\x00\x8f\x00\x00\x00\x00\x00\x00\x00\x90\x00\x00\x00\x00\x00\x00\x00\x91\x00\x00\x00\x00\x00\x00\x00\x92\x00\x00\x00\x00\x00\x00\x00\x93\x00\x00\x00\x00\x00\x00\x00\x94\x00\x00\x00\x00\x00\x00\x00\x95\x00\x00\x00\x00\x00\x00\x00\x96\x00\x00\x00\x00\x00\x00\x00\x97\x00\x00\x00\x00\x00\x00\x00\x98\x00\x00\x00\x00\x00\x00\x00\x99\x00\x00\x00\x00\x00\x00\x00\x9a\x00\x00\x00\x00\x00\x00\x00\x9b\x00\x00\x00\x00\x00\x00\x00\x9c\x00\x00\x00\x00\x00\x00\x00\x9d\x00\x00\x00\x00\x00\x00\x00\x9e\x00\x00\x00\x00\x00\x00\x00\x9f\x00\x00\x00\x00\x00\x00\x00\xa0\x00\x00\x00\x00\x00\x00\x00\xa1\x00\x00\x00\x00\x00\x00\x00\xa2\x00\x00\x00\x00\x00\x00\x00\xa3\x00\x00\x00\x00\x00\x00\x00\xa4\x00\x00\x00\x00\x00\x00\x00\xa5\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\x00\x00\x00\x00\xa7\x00\x00\x00\x00\x00\x00\x00\xa8\x00\x00\x00\x00\x00\x00\x00\xa9\x00\x00\x00\x00\x00\x00\x00\xaa\x00\x00\x00\x00\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\xac\x00\x00\x00\x00\x00\x00\x00\xad\x00\x00\x00\x00\x00\x00\x00\xae\x00\x00\x00\x00\x00\x00\x00\xaf\x00\x00\x00\x00\x00\x00\x00\xb0\x00\x00\x00\x00\x00\x00\x00\xb1\x00\x00\x00\x00\x00\x00\x00\xb2\x00\x00\x00\x00\x00\x00\x00\xb3\x00\x00\x00\x00\x00\x00\x00\xb4\x00\x00\x00\x00\x00\x00\x00\xb5\x00\x00\x00\x00\x00\x00\x00\xb6\x00\x00\x00\x00\x00\x00\x00\xb7\x00\x00\x00\x00\x00\x00\x00\xb8\x00\x00\x00\x00\x00\x00\x00\xb9\x00\x00\x00\x00\x00\x00\x00\xba\x00\x00\x00\x00\x00\x00\x00\xbb\x00\x00\x00\x00\x00\x00\x00\xbc\x00\x00\x00\x00\x00\x00\x00\xbd\x00\x00\x00\x00\x00\x00\x00\xbe\x00\x00\x00\x00\x00\x00\x00\xbf\x00\x00\x00\x00\x00\x00\x00\xc0\x00\x00\x00\x00\x00\x00\x00\xc1\x00\x00\x00\x00\x00\x00\x00\xc2\x00\x00\x00\x00\x00\x00\x00\xc3\x00\x00\x00\x00\x00\x00\x00\xc4\x00\x00\x00\x00\x00\x00\x00\xc5\x00\x00\x00\x00\x00\x00\x00\xc6\x00\x00\x00\x00\x00\x00\x00\xc7\x00\x00\x00\x00\x00\x00\x00\xc8\x00\x00\x00\x00\x00\x00\x00\xc9\x00\x00\x00\x00\x00\x00\x00\xca\x00\x00\x00\x00\x00\x00\x00\xcb\x00\x00\x00\x00\x00\x00\x00\xcc\x00\x00\x00\x00\x00\x00\x00\xcd\x00\x00\x00\x00\x00\x00\x00\xce\x00\x00\x00\x00\x00\x00\x00\xcf\x00\x00\x00\x00\x00\x00\x00\xd0\x00\x00\x00\x00\x00\x00\x00\xd1\x00\x00\x00\x00\x00\x00\x00\xd2\x00\x00\x00\x00\x00\x00\x00\xd3\x00\x00\x00\x00\x00\x00\x00\xd4\x00\x00\x00\x00\x00\x00\x00\xd5\x00\x00\x00\x00\x00\x00\x00\xd6\x00\x00\x00\x00\x00\x00\x00\xd7\x00\x00\x00\x00\x00\x00\x00\xd8\x00\x00\x00\x00\x00\x00\x00\xd9\x00\x00\x00\x00\x00\x00\x00\xda\x00\x00\x00\x00\x00\x00\x00\xdb\x00\x00\x00\x00\x00\x00\x00\xdc\x00\x00\x00\x00\x00\x00\x00\xdd\x00\x00\x00\x00\x00\x00\x00\xde\x00\x00\x00\x00\x00\x00\x00\xdf\x00\x00\x00\x00\x00\x00\x00\xe0\x00\x00\x00\x00\x00\x00\x00\xe1\x00\x00\x00\x00\x00\x00\x00\xe2\x00\x00\x00\x00\x00\x00\x00\xe3\x00\x00\x00\x00\x00\x00\x00\xe4\x00\x00\x00\x00\x00\x00\x00\xe5\x00\x00\x00\x00\x00\x00\x00\xe6\x00\x00\x00\x00\x00\x00\x00\xe7\x00\x00\x00\x00\x00\x00\x00\xe8\x00\x00\x00\x00\x00\x00\x00\xe9\x00\x00\x00\x00\x00\x00\x00\xea\x00\x00\x00\x00\x00\x00\x00\xeb\x00\x00\x00\x00\x00\x00\x00\xec\x00\x00\x00\x00\x00\x00\x00\xed\x00\x00\x00\x00\x00\x00\x00\xee\x00\x00\x00\x00\x00\x00\x00\xef\x00\x00\x00\x00\x00\x00\x00\xf0\x00\x00\x00\x00\x00\x00\x00\xf1\x00\x00\x00\x00\x00\x00\x00\xf2\x00\x00\x00\x00\x00\x00\x00\xf3\x00\x00\x00\x00\x00\x00\x00\xf4\x00\x00\x00\x00\x00\x00\x00\xf5\x00\x00\x00\x00\x00\x00\x00\xf6\x00\x00\x00\x00\x00\x00\x00\xf7\x00\x00\x00\x00\x00\x00\x00\xf8\x00\x00\x00\x00\x00\x00\x00\xf9\x00\x00\x00\x00\x00\x00\x00\xfa\x00\x00\x00\x00\x00\x00\x00\xfb\x00\x00\x00\x00\x00\x00\x00\xfc\x00\x00\x00\x00\x00\x00\x00\xfd\x00\x00\x00\x00\x00\x00\x00\xfe\x00\x00\x00\x00\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x02\x01\x00\x00\x00\x00\x00\x00\x03\x01\x00\x00\x00\x00\x00\x00\x04\x01\x00\x00\x00\x00\x00\x00\x05\x01\x00\x00\x00\x00\x00\x00\x06\x01\x00\x00\x00\x00\x00\x00\x07\x01\x00\x00\x00\x00\x00\x00\x08\x01\x00\x00\x00\x00\x00\x00\t\x01\x00\x00\x00\x00\x00\x00\n\x01\x00\x00\x00\x00\x00\x00\x0b\x01\x00\x00\x00\x00\x00\x00\x0c\x01\x00\x00\x00\x00\x00\x00\r\x01\x00\x00\x00\x00\x00\x00\x0e\x01\x00\x00\x00\x00\x00\x00\x0f\x01\x00\x00\x00\x00\x00\x00\x10\x01\x00\x00\x00\x00\x00\x00\x11\x01\x00\x00\x00\x00\x00\x00\x12\x01\x00\x00\x00\x00\x00\x00\x13\x01\x00\x00\x00\x00\x00\x00\x14\x01\x00\x00\x00\x00\x00\x00\x15\x01\x00\x00\x00\x00\x00\x00\x16\x01\x00\x00\x00\x00\x00\x00\x17\x01\x00\x00\x00\x00\x00\x00\x18\x01\x00\x00\x00\x00\x00\x00\x19\x01\x00\x00\x00\x00\x00\x00\x1a\x01\x00\x00\x00\x00\x00\x00\x1b\x01\x00\x00\x00\x00\x00\x00\x1c\x01\x00\x00\x00\x00\x00\x00\x1d\x01\x00\x00\x00\x00\x00\x00\x1e\x01\x00\x00\x00\x00\x00\x00\x1f\x01\x00\x00\x00\x00\x00\x00 \x01\x00\x00\x00\x00\x00\x00!\x01\x00\x00\x00\x00\x00\x00"\x01\x00\x00\x00\x00\x00\x00#\x01\x00\x00\x00\x00\x00\x00$\x01\x00\x00\x00\x00\x00\x00%\x01\x00\x00\x00\x00\x00\x00&\x01\x00\x00\x00\x00\x00\x00\'\x01\x00\x00\x00\x00\x00\x00(\x01\x00\x00\x00\x00\x00\x00)\x01\x00\x00\x00\x00\x00\x00*\x01\x00\x00\x00\x00\x00\x00+\x01\x00\x00\x00\x00\x00\x00,\x01\x00\x00\x00\x00\x00\x00-\x01\x00\x00\x00\x00\x00\x00.\x01\x00\x00\x00\x00\x00\x00/\x01\x00\x00\x00\x00\x00\x000\x01\x00\x00\x00\x00\x00\x001\x01\x00\x00\x00\x00\x00\x002\x01\x00\x00\x00\x00\x00\x003\x01\x00\x00\x00\x00\x00\x004\x01\x00\x00\x00\x00\x00\x005\x01\x00\x00\x00\x00\x00\x006\x01\x00\x00\x00\x00\x00\x007\x01\x00\x00\x00\x00\x00\x008\x01\x00\x00\x00\x00\x00\x009\x01\x00\x00\x00\x00\x00\x00:\x01\x00\x00\x00\x00\x00\x00;\x01\x00\x00\x00\x00\x00\x00<\x01\x00\x00\x00\x00\x00\x00=\x01\x00\x00\x00\x00\x00\x00>\x01\x00\x00\x00\x00\x00\x00?\x01\x00\x00\x00\x00\x00\x00@\x01\x00\x00\x00\x00\x00\x00A\x01\x00\x00\x00\x00\x00\x00B\x01\x00\x00\x00\x00\x00\x00C\x01\x00\x00\x00\x00\x00\x00D\x01\x00\x00\x00\x00\x00\x00E\x01\x00\x00\x00\x00\x00\x00F\x01\x00\x00\x00\x00\x00\x00G\x01\x00\x00\x00\x00\x00\x00H\x01\x00\x00\x00\x00\x00\x00I\x01\x00\x00\x00\x00\x00\x00J\x01\x00\x00\x00\x00\x00\x00K\x01\x00\x00\x00\x00\x00\x00L\x01\x00\x00\x00\x00\x00\x00M\x01\x00\x00\x00\x00\x00\x00N\x01\x00\x00\x00\x00\x00\x00O\x01\x00\x00\x00\x00\x00\x00P\x01\x00\x00\x00\x00\x00\x00Q\x01\x00\x00\x00\x00\x00\x00R\x01\x00\x00\x00\x00\x00\x00S\x01\x00\x00\x00\x00\x00\x00T\x01\x00\x00\x00\x00\x00\x00U\x01\x00\x00\x00\x00\x00\x00V\x01\x00\x00\x00\x00\x00\x00W\x01\x00\x00\x00\x00\x00\x00X\x01\x00\x00\x00\x00\x00\x00Y\x01\x00\x00\x00\x00\x00\x00Z\x01\x00\x00\x00\x00\x00\x00[\x01\x00\x00\x00\x00\x00\x00\\\x01\x00\x00\x00\x00\x00\x00]\x01\x00\x00\x00\x00\x00\x00^\x01\x00\x00\x00\x00\x00\x00_\x01\x00\x00\x00\x00\x00\x00`\x01\x00\x00\x00\x00\x00\x00a\x01\x00\x00\x00\x00\x00\x00b\x01\x00\x00\x00\x00\x00\x00c\x01\x00\x00\x00\x00\x00\x00d\x01\x00\x00\x00\x00\x00\x00e\x01\x00\x00\x00\x00\x00\x00f\x01\x00\x00\x00\x00\x00\x00'
+p52
+tp53
+bsg38
+Nstp54
+Rp55
+a(lp56
+g19
+(g20
+(I0
+tp57
+g22
+tp58
+Rp59
+(I1
+(I4
+I359
+tp60
+g29
+I00
+(lp61
+S'5519837630'
+p62
+aS'5519835301'
+p63
+aS'5493065802'
+p64
+aS'5535002861'
+p65
+aS'5534974217'
+p66
+aS'5491375536'
+p67
+aS'5534826445'
+p68
+aS'5534662418'
+p69
+aS'5534601819'
+p70
+aS'5534547692'
+p71
+aS'5534176962'
+p72
+aS'5534108913'
+p73
+aS'5530335905'
+p74
+aS'5534101409'
+p75
+aS'5533962168'
+p76
+aS'5533963211'
+p77
+aS'5493064565'
+p78
+aS'5490640094'
+p79
+aS'5497663892'
+p80
+aS'5530783284'
+p81
+aS'5528169979'
+p82
+aS'5533695514'
+p83
+aS'5533688648'
+p84
+aS'5533581390'
+p85
+aS'5530080987'
+p86
+aS'5516906740'
+p87
+aS'5499379165'
+p88
+aS'5521155174'
+p89
+aS'5501081373'
+p90
+aS'5522611172'
+p91
+aS'5510887665'
+p92
+aS'5533440171'
+p93
+aS'5530351488'
+p94
+aS'5533266837'
+p95
+aS'5528657452'
+p96
+aS'5528657866'
+p97
+aS'5490644908'
+p98
+aS'5529581058'
+p99
+aS'5528781806'
+p100
+aS'5532833433'
+p101
+aS'5532624525'
+p102
+aS'5532348974'
+p103
+aS'5532374090'
+p104
+aS'5532343479'
+p105
+aS'5532352877'
+p106
+aS'5532195247'
+p107
+aS'5532121049'
+p108
+aS'5531878583'
+p109
+aS'5512531342'
+p110
+aS'5523801995'
+p111
+aS'5508559486'
+p112
+aS'5489847500'
+p113
+aS'5497242690'
+p114
+aS'5492824421'
+p115
+aS'5500134532'
+p116
+aS'5492590830'
+p117
+aS'5527939711'
+p118
+aS'5531641691'
+p119
+aS'5531628739'
+p120
+aS'5531602250'
+p121
+aS'5531505264'
+p122
+aS'5531430168'
+p123
+aS'5499629763'
+p124
+aS'5531232930'
+p125
+aS'5531143610'
+p126
+aS'5531056887'
+p127
+aS'5531045862'
+p128
+aS'5521367996'
+p129
+aS'5530718090'
+p130
+aS'5530701842'
+p131
+aS'5526332369'
+p132
+aS'5530673433'
+p133
+aS'5490356661'
+p134
+aS'5490354576'
+p135
+aS'5487573244'
+p136
+aS'5525802791'
+p137
+aS'5530577783'
+p138
+aS'5530377358'
+p139
+aS'5485763581'
+p140
+aS'5530223460'
+p141
+aS'5530220423'
+p142
+aS'5525608094'
+p143
+aS'5530173687'
+p144
+aS'5522626102'
+p145
+aS'5529344537'
+p146
+aS'5529191944'
+p147
+aS'5529159733'
+p148
+aS'5529120328'
+p149
+aS'5528542599'
+p150
+aS'5528251052'
+p151
+aS'5528194145'
+p152
+aS'5528003829'
+p153
+aS'5528180014'
+p154
+aS'5527561394'
+p155
+aS'5503875962'
+p156
+aS'5523866911'
+p157
+aS'5489322778'
+p158
+aS'5527061498'
+p159
+aS'5527001494'
+p160
+aS'5526766826'
+p161
+aS'5526666560'
+p162
+aS'5526275922'
+p163
+aS'5526218204'
+p164
+aS'5526211505'
+p165
+aS'5526172221'
+p166
+aS'5526011819'
+p167
+aS'5513121211'
+p168
+aS'5525718885'
+p169
+aS'5525739274'
+p170
+aS'5525663340'
+p171
+aS'5525417442'
+p172
+aS'5525418254'
+p173
+aS'5525430332'
+p174
+aS'5524584097'
+p175
+aS'5524566980'
+p176
+aS'5524391473'
+p177
+aS'5524208859'
+p178
+aS'5523977367'
+p179
+aS'5523925723'
+p180
+aS'5523591286'
+p181
+aS'5523502995'
+p182
+aS'5522939501'
+p183
+aS'5513123375'
+p184
+aS'5483286648'
+p185
+aS'5516674006'
+p186
+aS'5522464897'
+p187
+aS'5522403566'
+p188
+aS'5522091074'
+p189
+aS'5521974650'
+p190
+aS'5521379827'
+p191
+aS'5521233747'
+p192
+aS'5521172245'
+p193
+aS'5520928863'
+p194
+aS'5520892372'
+p195
+aS'5520466264'
+p196
+aS'5520300967'
+p197
+aS'5520028270'
+p198
+aS'5519822495'
+p199
+aS'5519571829'
+p200
+aS'5519304529'
+p201
+aS'5518893551'
+p202
+aS'5518740990'
+p203
+aS'5518495253'
+p204
+aS'5475379935'
+p205
+aS'5518220710'
+p206
+aS'5517913723'
+p207
+aS'5517752221'
+p208
+aS'5517664195'
+p209
+aS'5517576378'
+p210
+aS'5480319800'
+p211
+aS'5517357111'
+p212
+aS'5517130257'
+p213
+aS'5517035714'
+p214
+aS'5516911490'
+p215
+aS'5516563116'
+p216
+aS'5516466583'
+p217
+aS'5516342489'
+p218
+aS'5516034364'
+p219
+aS'5515884551'
+p220
+aS'5515864575'
+p221
+aS'5515328304'
+p222
+aS'5514793052'
+p223
+aS'5514324231'
+p224
+aS'5514047044'
+p225
+aS'5513893502'
+p226
+aS'5513734677'
+p227
+aS'5512948671'
+p228
+aS'5512946639'
+p229
+aS'5511627246'
+p230
+aS'5511294168'
+p231
+aS'5510836396'
+p232
+aS'5510827239'
+p233
+aS'5510420027'
+p234
+aS'5509787739'
+p235
+aS'5509798227'
+p236
+aS'5509774034'
+p237
+aS'5472803243'
+p238
+aS'5509539597'
+p239
+aS'5484029863'
+p240
+aS'5508701376'
+p241
+aS'5508397589'
+p242
+aS'5508343477'
+p243
+aS'5508228558'
+p244
+aS'5507885524'
+p245
+aS'5501120952'
+p246
+aS'5507119205'
+p247
+aS'5507054023'
+p248
+aS'5505692106'
+p249
+aS'5506243004'
+p250
+aS'5506113709'
+p251
+aS'5505703817'
+p252
+aS'5505625122'
+p253
+aS'5462127988'
+p254
+aS'5505334845'
+p255
+aS'5505213132'
+p256
+aS'5505169232'
+p257
+aS'5504899690'
+p258
+aS'5504739152'
+p259
+aS'5498311576'
+p260
+aS'5498309565'
+p261
+aS'5504312515'
+p262
+aS'5496158376'
+p263
+aS'5503928841'
+p264
+aS'5503820951'
+p265
+aS'5503760920'
+p266
+aS'5503498870'
+p267
+aS'5463096999'
+p268
+aS'5461747738'
+p269
+aS'5457481237'
+p270
+aS'5502199794'
+p271
+aS'5502123422'
+p272
+aS'5500924605'
+p273
+aS'5500576195'
+p274
+aS'5500458520'
+p275
+aS'5499689593'
+p276
+aS'5499687746'
+p277
+aS'5499583598'
+p278
+aS'5475072474'
+p279
+aS'5456879182'
+p280
+aS'5498743630'
+p281
+aS'5498267784'
+p282
+aS'5497985552'
+p283
+aS'5497960185'
+p284
+aS'5469893504'
+p285
+aS'5497485223'
+p286
+aS'5497441396'
+p287
+aS'5469678577'
+p288
+aS'5496784805'
+p289
+aS'5496543984'
+p290
+aS'5496306498'
+p291
+aS'5496295171'
+p292
+aS'5453159321'
+p293
+aS'5495995212'
+p294
+aS'5495994099'
+p295
+aS'5495661816'
+p296
+aS'5495576485'
+p297
+aS'5495160163'
+p298
+aS'5453159589'
+p299
+aS'5494841649'
+p300
+aS'5494509702'
+p301
+aS'5494375099'
+p302
+aS'5493959902'
+p303
+aS'5493659217'
+p304
+aS'5493207657'
+p305
+aS'5492813257'
+p306
+aS'5492703998'
+p307
+aS'5492455680'
+p308
+aS'5492184283'
+p309
+aS'5492131338'
+p310
+aS'5492120183'
+p311
+aS'5492031702'
+p312
+aS'5491714207'
+p313
+aS'5491697602'
+p314
+aS'5491607834'
+p315
+aS'5491605745'
+p316
+aS'5491594257'
+p317
+aS'5491218635'
+p318
+aS'5491130729'
+p319
+aS'5490440668'
+p320
+aS'5490067285'
+p321
+aS'5449984551'
+p322
+aS'5449986680'
+p323
+aS'5451432042'
+p324
+aS'5489772449'
+p325
+aS'5463538227'
+p326
+aS'5488182673'
+p327
+aS'5487775493'
+p328
+aS'5487469390'
+p329
+aS'5487388184'
+p330
+aS'5487188146'
+p331
+aS'5486800572'
+p332
+aS'5443168604'
+p333
+aS'5443296523'
+p334
+aS'5486130273'
+p335
+aS'5486100241'
+p336
+aS'5485960651'
+p337
+aS'5485425688'
+p338
+aS'5485259643'
+p339
+aS'5485072886'
+p340
+aS'5484722978'
+p341
+aS'5461648851'
+p342
+aS'5484198497'
+p343
+aS'5484153776'
+p344
+aS'5480320322'
+p345
+aS'5480321418'
+p346
+aS'5480318176'
+p347
+aS'5483714811'
+p348
+aS'5474581484'
+p349
+aS'5453053512'
+p350
+aS'5483132766'
+p351
+aS'5482672148'
+p352
+aS'5451603826'
+p353
+aS'5477920351'
+p354
+aS'5481923833'
+p355
+aS'5481923290'
+p356
+aS'5477921176'
+p357
+aS'5477919634'
+p358
+aS'5452264874'
+p359
+aS'5438770104'
+p360
+aS'5481652384'
+p361
+aS'5481549975'
+p362
+aS'5468010916'
+p363
+aS'5481071433'
+p364
+aS'5481010557'
+p365
+aS'5481049508'
+p366
+aS'5469412967'
+p367
+aS'5480233012'
+p368
+aS'5453359861'
+p369
+aS'5455125406'
+p370
+aS'5479618440'
+p371
+aS'5479652759'
+p372
+aS'5478958646'
+p373
+aS'5478723251'
+p374
+aS'5478159604'
+p375
+aS'5478091910'
+p376
+aS'5477907990'
+p377
+aS'5477777812'
+p378
+aS'5433162436'
+p379
+aS'5476823068'
+p380
+aS'5476684110'
+p381
+aS'5463004531'
+p382
+aS'5476060986'
+p383
+aS'5475296682'
+p384
+aS'5474801260'
+p385
+aS'5474517084'
+p386
+aS'5474215583'
+p387
+aS'5474116013'
+p388
+aS'5473935204'
+p389
+aS'5473343558'
+p390
+aS'5473338855'
+p391
+aS'5472997796'
+p392
+aS'5472947661'
+p393
+aS'5472850036'
+p394
+aS'5472626541'
+p395
+aS'5472418147'
+p396
+aS'5471518538'
+p397
+aS'5471531405'
+p398
+aS'5471173727'
+p399
+aS'5471097881'
+p400
+aS'5470895422'
+p401
+aS'5470918110'
+p402
+aS'5469948889'
+p403
+aS'5469759342'
+p404
+aS'5469622061'
+p405
+aS'5469494229'
+p406
+aS'5469321083'
+p407
+aS'5468510270'
+p408
+aS'5468358661'
+p409
+aS'5468126950'
+p410
+aS'5467384532'
+p411
+aS'5424208083'
+p412
+aS'5467280338'
+p413
+aS'5467043246'
+p414
+aS'5466848030'
+p415
+aS'5466452019'
+p416
+aS'5466436176'
+p417
+aS'5466364560'
+p418
+aS'5466299616'
+p419
+aS'5426957703'
+p420
+aV2016-04-11 22:23
+p421
+aV2016-04-11 22:23
+p422
+aV2016-04-11 22:23
+p423
+aV2016-04-11 21:59
+p424
+aV2016-04-11 21:18
+p425
+aV2016-04-11 20:44
+p426
+aV2016-04-11 19:18
+p427
+aV2016-04-11 17:43
+p428
+aV2016-04-11 17:18
+p429
+aV2016-04-11 16:17
+p430
+aV2016-04-11 13:21
+p431
+aV2016-04-11 12:38
+p432
+aV2016-04-11 12:37
+p433
+aV2016-04-11 12:27
+p434
+aV2016-04-11 11:32
+p435
+aV2016-04-11 11:25
+p436
+aV2016-04-11 11:09
+p437
+aV2016-04-11 11:09
+p438
+aV2016-04-11 10:28
+p439
+aV2016-04-11 09:36
+p440
+aV2016-04-11 09:20
+p441
+aV2016-04-11 09:04
+p442
+aV2016-04-11 09:00
+p443
+aV2016-04-11 07:25
+p444
+aV2016-04-11 06:56
+p445
+aV2016-04-11 06:52
+p446
+aV2016-04-11 06:42
+p447
+aV2016-04-11 06:42
+p448
+aV2016-04-11 06:36
+p449
+aV2016-04-11 06:34
+p450
+aV2016-04-11 03:04
+p451
+aV2016-04-11 01:13
+p452
+aV2016-04-11 01:10
+p453
+aV2016-04-10 21:14
+p454
+aV2016-04-10 20:17
+p455
+aV2016-04-10 20:17
+p456
+aV2016-04-10 20:17
+p457
+aV2016-04-10 18:42
+p458
+aV2016-04-10 15:52
+p459
+aV2016-04-10 15:44
+p460
+aV2016-04-10 13:21
+p461
+aV2016-04-10 10:48
+p462
+aV2016-04-10 10:41
+p463
+aV2016-04-10 10:30
+p464
+aV2016-04-10 10:28
+p465
+aV2016-04-10 08:15
+p466
+aV2016-04-10 05:58
+p467
+aV2016-04-09 21:18
+p468
+aV2016-04-09 19:56
+p469
+aV2016-04-09 18:16
+p470
+aV2016-04-09 18:15
+p471
+aV2016-04-09 18:15
+p472
+aV2016-04-09 18:15
+p473
+aV2016-04-09 18:15
+p474
+aV2016-04-09 18:15
+p475
+aV2016-04-09 18:15
+p476
+aV2016-04-09 18:15
+p477
+aV2016-04-09 17:45
+p478
+aV2016-04-09 17:38
+p479
+aV2016-04-09 17:22
+p480
+aV2016-04-09 15:56
+p481
+aV2016-04-09 15:39
+p482
+aV2016-04-09 15:29
+p483
+aV2016-04-09 13:18
+p484
+aV2016-04-09 12:29
+p485
+aV2016-04-09 12:01
+p486
+aV2016-04-09 11:56
+p487
+aV2016-04-09 08:24
+p488
+aV2016-04-09 08:15
+p489
+aV2016-04-09 08:09
+p490
+aV2016-04-09 08:07
+p491
+aV2016-04-09 07:49
+p492
+aV2016-04-09 07:43
+p493
+aV2016-04-09 07:40
+p494
+aV2016-04-09 07:18
+p495
+aV2016-04-09 07:17
+p496
+aV2016-04-09 04:14
+p497
+aV2016-04-08 21:35
+p498
+aV2016-04-08 21:21
+p499
+aV2016-04-08 20:18
+p500
+aV2016-04-08 19:25
+p501
+aV2016-04-08 19:05
+p502
+aV2016-04-08 18:35
+p503
+aV2016-04-08 11:59
+p504
+aV2016-04-08 10:45
+p505
+aV2016-04-08 09:21
+p506
+aV2016-04-08 08:58
+p507
+aV2016-04-08 08:55
+p508
+aV2016-04-07 18:22
+p509
+aV2016-04-07 15:03
+p510
+aV2016-04-07 14:31
+p511
+aV2016-04-07 14:24
+p512
+aV2016-04-07 14:23
+p513
+aV2016-04-07 09:27
+p514
+aV2016-04-07 08:49
+p515
+aV2016-04-06 20:52
+p516
+aV2016-04-06 20:37
+p517
+aV2016-04-06 19:50
+p518
+aV2016-04-06 19:02
+p519
+aV2016-04-06 16:25
+p520
+aV2016-04-06 15:15
+p521
+aV2016-04-06 11:48
+p522
+aV2016-04-06 11:20
+p523
+aV2016-04-06 11:16
+p524
+aV2016-04-06 10:56
+p525
+aV2016-04-06 09:56
+p526
+aV2016-04-06 07:40
+p527
+aV2016-04-06 03:19
+p528
+aV2016-04-06 03:18
+p529
+aV2016-04-05 23:32
+p530
+aV2016-04-05 19:56
+p531
+aV2016-04-05 19:49
+p532
+aV2016-04-05 19:32
+p533
+aV2016-04-05 11:29
+p534
+aV2016-04-05 11:12
+p535
+aV2016-04-05 09:30
+p536
+aV2016-04-05 06:58
+p537
+aV2016-04-04 22:10
+p538
+aV2016-04-04 21:27
+p539
+aV2016-04-04 17:09
+p540
+aV2016-04-04 16:15
+p541
+aV2016-04-04 11:28
+p542
+aV2016-04-04 09:34
+p543
+aV2016-04-04 09:33
+p544
+aV2016-04-04 09:32
+p545
+aV2016-04-04 05:28
+p546
+aV2016-04-04 01:18
+p547
+aV2016-04-03 18:54
+p548
+aV2016-04-03 17:37
+p549
+aV2016-04-03 11:09
+p550
+aV2016-04-03 09:11
+p551
+aV2016-04-03 08:06
+p552
+aV2016-04-02 22:35
+p553
+aV2016-04-02 21:48
+p554
+aV2016-04-02 15:50
+p555
+aV2016-04-02 14:26
+p556
+aV2016-04-02 11:45
+p557
+aV2016-04-02 09:58
+p558
+aV2016-04-02 05:16
+p559
+aV2016-04-01 21:08
+p560
+aV2016-04-01 15:55
+p561
+aV2016-04-01 14:41
+p562
+aV2016-04-01 12:42
+p563
+aV2016-04-01 10:14
+p564
+aV2016-04-01 09:56
+p565
+aV2016-04-01 03:31
+p566
+aV2016-03-31 22:02
+p567
+aV2016-03-31 20:48
+p568
+aV2016-03-31 19:44
+p569
+aV2016-03-31 17:34
+p570
+aV2016-03-31 16:36
+p571
+aV2016-03-31 14:17
+p572
+aV2016-03-31 13:30
+p573
+aV2016-03-31 12:28
+p574
+aV2016-03-31 09:01
+p575
+aV2016-03-31 08:00
+p576
+aV2016-03-31 02:51
+p577
+aV2016-03-30 19:55
+p578
+aV2016-03-30 17:45
+p579
+aV2016-03-30 17:38
+p580
+aV2016-03-30 12:22
+p581
+aV2016-03-30 06:20
+p582
+aV2016-03-29 18:33
+p583
+aV2016-03-29 15:32
+p584
+aV2016-03-29 14:08
+p585
+aV2016-03-29 12:45
+p586
+aV2016-03-28 22:30
+p587
+aV2016-03-28 22:28
+p588
+aV2016-03-28 09:26
+p589
+aV2016-03-27 23:33
+p590
+aV2016-03-27 15:30
+p591
+aV2016-03-27 15:22
+p592
+aV2016-03-27 09:38
+p593
+aV2016-03-26 16:59
+p594
+aV2016-03-26 16:55
+p595
+aV2016-03-26 16:48
+p596
+aV2016-03-26 15:40
+p597
+aV2016-03-26 14:01
+p598
+aV2016-03-26 10:12
+p599
+aV2016-03-25 22:16
+p600
+aV2016-03-25 17:40
+p601
+aV2016-03-25 17:12
+p602
+aV2016-03-25 15:50
+p603
+aV2016-03-25 12:41
+p604
+aV2016-03-25 12:37
+p605
+aV2016-03-24 21:49
+p606
+aV2016-03-24 20:39
+p607
+aV2016-03-24 11:49
+p608
+aV2016-03-24 11:49
+p609
+aV2016-03-24 10:39
+p610
+aV2016-03-24 00:34
+p611
+aV2016-03-23 22:48
+p612
+aV2016-03-23 21:11
+p613
+aV2016-03-23 18:03
+p614
+aV2016-03-23 16:39
+p615
+aV2016-03-23 16:11
+p616
+aV2016-03-23 13:38
+p617
+aV2016-03-23 12:12
+p618
+aV2016-03-23 07:54
+p619
+aV2016-03-23 07:53
+p620
+aV2016-03-23 07:51
+p621
+aV2016-03-22 20:30
+p622
+aV2016-03-22 20:22
+p623
+aV2016-03-22 19:09
+p624
+aV2016-03-22 18:12
+p625
+aV2016-03-22 15:29
+p626
+aV2016-03-22 14:30
+p627
+aV2016-03-22 09:09
+p628
+aV2016-03-21 23:08
+p629
+aV2016-03-21 19:09
+p630
+aV2016-03-21 18:15
+p631
+aV2016-03-21 06:06
+p632
+aV2016-03-20 19:54
+p633
+aV2016-03-20 18:10
+p634
+aV2016-03-20 09:38
+p635
+aV2016-03-20 09:30
+p636
+aV2016-03-20 07:29
+p637
+aV2016-03-19 17:41
+p638
+aV2016-03-19 15:05
+p639
+aV2016-03-19 14:26
+p640
+aV2016-03-19 09:48
+p641
+aV2016-03-19 02:00
+p642
+aV2016-03-19 01:07
+p643
+aV2016-03-18 21:14
+p644
+aV2016-03-18 17:24
+p645
+aV2016-03-18 16:34
+p646
+aV2016-03-18 11:06
+p647
+aV2016-03-18 10:57
+p648
+aV2016-03-18 08:00
+p649
+aV2016-03-17 23:12
+p650
+aV2016-03-17 22:49
+p651
+aV2016-03-17 22:29
+p652
+aV2016-03-17 18:08
+p653
+aV2016-03-17 18:07
+p654
+aV2016-03-17 14:37
+p655
+aV2016-03-17 14:19
+p656
+aV2016-03-17 10:08
+p657
+aV2016-03-17 06:14
+p658
+aV2016-03-17 04:11
+p659
+aV2016-03-16 19:55
+p660
+aV2016-03-16 18:11
+p661
+aV2016-03-16 13:53
+p662
+aV2016-03-16 11:08
+p663
+aV2016-03-16 00:38
+p664
+aV2016-03-15 17:42
+p665
+aV2016-03-15 16:26
+p666
+aV2016-03-15 14:12
+p667
+aV2016-03-15 11:38
+p668
+aV2016-03-15 11:12
+p669
+aV2016-03-15 11:02
+p670
+aV2016-03-15 10:06
+p671
+aV2016-03-15 01:27
+p672
+aV2016-03-15 00:36
+p673
+aV2016-03-14 22:29
+p674
+aV2016-03-14 22:17
+p675
+aV2016-03-14 22:09
+p676
+aV2016-03-14 17:15
+p677
+aV2016-03-14 16:09
+p678
+aV2016-03-14 09:56
+p679
+aV2016-03-13 22:59
+p680
+aV2016-03-13 22:38
+p681
+aV2016-03-13 22:30
+p682
+aV2016-03-13 22:29
+p683
+aV2016-03-13 18:13
+p684
+aV2016-03-12 15:46
+p685
+aV2016-03-12 13:01
+p686
+aV2016-03-12 09:06
+p687
+aV2016-03-11 23:22
+p688
+aV2016-03-11 21:51
+p689
+aV2016-03-11 18:29
+p690
+aV2016-03-11 14:08
+p691
+aV2016-03-11 11:52
+p692
+aV2016-03-11 03:07
+p693
+aV2016-03-11 01:04
+p694
+aV2016-03-10 23:45
+p695
+aV2016-03-10 20:45
+p696
+aV2016-03-10 13:54
+p697
+aV2016-03-10 12:03
+p698
+aV2016-03-10 10:11
+p699
+aV2016-03-09 23:42
+p700
+aV2016-03-09 18:18
+p701
+aV2016-03-09 15:52
+p702
+aV2016-03-09 15:39
+p703
+aV2016-03-09 13:03
+p704
+aV2016-03-09 13:02
+p705
+aV2016-03-09 13:02
+p706
+aV2016-03-09 11:34
+p707
+aV2016-03-09 09:48
+p708
+aV2016-03-08 23:58
+p709
+aV2016-03-08 23:02
+p710
+aV2016-03-08 16:32
+p711
+aV2016-03-08 10:58
+p712
+aV2016-03-08 09:18
+p713
+aV2016-03-08 09:14
+p714
+aV2016-03-08 09:14
+p715
+aV2016-03-08 09:13
+p716
+aV2016-03-08 09:13
+p717
+aV2016-03-08 07:45
+p718
+aV2016-03-08 05:01
+p719
+aV2016-03-08 01:51
+p720
+aV2016-03-07 22:35
+p721
+aV2016-03-07 22:16
+p722
+aV2016-03-07 16:26
+p723
+aV2016-03-07 16:09
+p724
+aV2016-03-07 15:57
+p725
+aV2016-03-07 12:50
+p726
+aV2016-03-07 08:46
+p727
+aV2016-03-06 22:37
+p728
+aV2016-03-06 22:32
+p729
+aV2016-03-06 18:06
+p730
+aV2016-03-06 17:44
+p731
+aV2016-03-06 09:49
+p732
+aV2016-03-06 03:14
+p733
+aV2016-03-05 16:01
+p734
+aV2016-03-05 14:52
+p735
+aV2016-03-05 13:40
+p736
+aV2016-03-05 12:08
+p737
+aV2016-03-04 18:10
+p738
+aV2016-03-04 17:34
+p739
+aV2016-03-04 15:45
+p740
+aV2016-03-04 11:34
+p741
+aV2016-03-04 10:23
+p742
+aV2016-03-03 17:53
+p743
+aV2016-03-03 12:30
+p744
+aV2016-03-03 10:13
+p745
+aV2016-03-03 02:59
+p746
+aV2016-03-02 22:58
+p747
+aV2016-03-02 19:58
+p748
+aV2016-03-02 13:42
+p749
+aV2016-03-02 13:15
+p750
+aV2016-03-02 11:06
+p751
+aV2016-03-02 09:54
+p752
+aV2016-03-02 09:00
+p753
+aV2016-03-02 01:51
+p754
+aV2016-03-01 21:25
+p755
+aV2016-03-01 11:20
+p756
+aV2016-03-01 11:12
+p757
+aV2016-03-01 07:23
+p758
+aV2016-03-01 03:58
+p759
+aV2016-02-29 22:16
+p760
+aV2016-02-29 21:57
+p761
+aV2016-02-29 11:08
+p762
+aV2016-02-29 09:42
+p763
+aV2016-02-29 08:01
+p764
+aV2016-02-29 02:28
+p765
+aV2016-02-28 21:26
+p766
+aV2016-02-28 11:52
+p767
+aV2016-02-28 09:10
+p768
+aV2016-02-28 00:55
+p769
+aV2016-02-27 13:26
+p770
+aV2016-02-27 12:19
+p771
+aV2016-02-27 12:18
+p772
+aV2016-02-27 10:27
+p773
+aV2016-02-27 08:01
+p774
+aV2016-02-26 19:41
+p775
+aV2016-02-26 19:32
+p776
+aV2016-02-26 18:39
+p777
+aV2016-02-26 17:36
+p778
+aV2016-02-26 16:12
+p779
+aVDO YOU NEED RIDE TO ANY PART OF HOUSTON AND OTHER CITIES
+p780
+aVDO YOU NEED RIDE TO ANY PART OF HOUSTON AND OTHER CITIES
+p781
+aVDO YOU NEED A RIDE TO ANY PART OF HOUSTON
+p782
+aVSeeking ride to Dallas.
+p783
+aVISO Houston to Austin on 4/29 (Levitation Fest)
+p784
+aVPink Birthday Limousine Houston
+p785
+aVNeed ride from IAH Airport for Female and 2 large dogs with crates
+p786
+aV*****MAKE $2500 DAILY PAY NOW
+p787
+aV***** MAKE $3000 A DAY RIGHT NOW
+p788
+aVAustin Wednesday
+p789
+aV***Offering Rideshare***
+p790
+aVCHEAP RIDES 24/7
+p791
+aVTransportation
+p792
+aVCheap Rides In & Around Our City
+p793
+aVRideshare Drivers Needed - Paid After Each Trip
+p794
+aVRideshare Drivers Needed - Paid After Each Trip
+p795
+aVDO YOU NEED A RIDE TO ANY PART OF HOUSTON
+p796
+aVDO YOU NEED A RIDE TO ANY PART OF HOUSTON
+p797
+aVlooking for a ride back to michigan asap
+p798
+aVTransportation
+p799
+aVI can be your driver anywhere in houston surounding areas
+p800
+aVCHEAP RIDES 24/7
+p801
+aVCheap Rides In & Around Our City
+p802
+aVNeed Ride To Dog Appointment
+p803
+aVSan Antonio, Austin, or Dallas today cheap
+p804
+aVQuick transportation
+p805
+aVBrenham Temple Killeen or Cove tomorrow
+p806
+aVDallas, Austin, or San Antonio today door to door
+p807
+aVTransportation today
+p808
+aVAny city in Texas or Southern Louisiana todsy
+p809
+aVhouston to ft lauderdale florida 4-14
+p810
+aVLooking for help
+p811
+aVapril 14/15 houston to vegas or stops in between
+p812
+aVLooking for a ride HOUSTON to AUSTIN 4/23
+p813
+aVDO YOU NEED RIDE TO ANY AREAS OF HOUSTON AND OTHER CITIES
+p814
+aVDO YOU NEED RIDE TO ANY PART OF HOUSTON AND OTHER CITIES
+p815
+aVDO YOU NEED A RIDE TO ANY PART OF HOUSTON
+p816
+aVNEED A RIDE?
+p817
+aVHouston to Miami / Fort Lauderdale area?
+p818
+aVgreat birtday card >> www. nailartbeuty on etsy
+p819
+aVRide offer to Miami Beach
+p820
+aVCHEAP RIDES 24/7
+p821
+aVReliable Transportation available 24Hrs Daily
+p822
+aVCheap Rides In & Around Our City
+p823
+aVCustomized Transportation
+p824
+aVTransportation
+p825
+aVoffer Cargo Van with 1 passenger seat ...
+p826
+aVride from Houston to Vegas or reno nv!
+p827
+aVRental
+p828
+aVRide Anywhere...starting $35
+p829
+aVRide Anywhere+++starting $35
+p830
+aVRIDE RIDE RIDE--- STARTING $35
+p831
+aVHouston &Nearby...starting; $35.00
+p832
+aVRide N Relax.......HOUSTON & NEARBY
+p833
+aVRide Anywhere...Best Rate
+p834
+aVSUPER RIDE.*****starting $35
+p835
+aVRide Anywhere...starting $35
+p836
+aVNeed a ride to Corsicana ASAP
+p837
+aVCHEAP RIDES 24/7
+p838
+aVREnt My Van!!!!
+p839
+aVNeed Transportation to appts,shopping,
+p840
+aVI'm available right now
+p841
+aVTransportation
+p842
+aVride needed houston to tuscon
+p843
+aVRide Offered: headed to Austin tomorrow
+p844
+aVCHEAP RIDES 24/7
+p845
+aVCheap Rides In & Around Our City
+p846
+aVLimos, party buses, pub crawlers & suv's 24/7
+p847
+aVTransportation/ Ride/Shuttle Bus
+p848
+aVRides rides
+p849
+aVRIDE ANYWHERE TODAY
+p850
+aVRides N orth, South, East, or West
+p851
+aVTransportation anywhere in Houston
+p852
+aVRide to Central Texas offered
+p853
+aVI'm going to Austin, Killeen, Temple, or Waco today or tomorrow
+p854
+aVCheap transportation
+p855
+aVCheap Rides In & Around Our City
+p856
+aVGoing to Dallas. Need a ride. Looking for someone to drive
+p857
+aVRideshare - Need a ride anywhere, & we are available 24/7
+p858
+aVHouston to Beaumont/Port Arthur)
+p859
+aVRide Anywhere...starting $35
+p860
+aVRide Anywhere...starting $35
+p861
+aVCheap Rides In & Around Our City
+p862
+aVAustin, Waco, Killeen today dr to dr
+p863
+aVride offered TODAY to new orleans before 12:30/1pm
+p864
+aVATLANTA TO HOUSTON 45$
+p865
+aVCheap Rides In & Around Our City
+p866
+aVNEED RIDE FR:HOUSTON TO: PHOENIX AZ
+p867
+aVCheap Rides In & Around Our City
+p868
+aVfree ride to Texarkana - Little Rock for female
+p869
+aVBaytown to N Houston
+p870
+aVFrom Baytown to N Houston
+p871
+aVDamsel TGurl in Distress
+p872
+aVDriving to Dallas Every Friday Evening
+p873
+aVDriving to Dallas Thursday Evening
+p874
+aVCheap trip to Dallas offered
+p875
+aVAnywhere in Texas today (Sunday )
+p876
+aVCheap Rides In & Around Our City
+p877
+aVNeed a ride to New Orleans on 4/7, Thursday!
+p878
+aVSeeking ride to Katy Sunday mornings
+p879
+aVfree ride to Texarkana for female
+p880
+aVneed ride from houston to san diego or as far west as possible
+p881
+aVplease help me tow my car
+p882
+aVheading to NOLA wed Apr 6
+p883
+aVFrom Houston to New York OR Toronto
+p884
+aVCheap Rides In & Around Our City
+p885
+aVLimousine, limo party bus rental, group transportation
+p886
+aVtransportation service
+p887
+aVNeed a ride @4 am
+p888
+aVRide to Euphoria Music Festival in Austin Texas
+p889
+aVDO YOU NEED RIDE TO ANY AREAS OF HOUSTON AND OTHER CITIES
+p890
+aVDO YOU NEED RIDE TO ANY PART OF HOUSTON AND OTHER CITIES
+p891
+aVCalifornia road trip
+p892
+aVI M in Katy Texas. And I need a ride to the greyhound station in houst
+p893
+aVneed a ride to St. Louis, MO
+p894
+aVCheap Rides In & Around Our City !!!
+p895
+aVNeed a ride to Georgetown or Austin from Houston
+p896
+aVHeading east to Pensacola FL
+p897
+aVHouston area And Final 4 Event Driver
+p898
+aVCheap Rides In & Around Our City !!!
+p899
+aVToronto to Houston, TEXAS
+p900
+aVNeed a ride to Austin (airport) from Houston, leaving very late Monday
+p901
+aVRide with us on a limo party bus--------------------------------------
+p902
+aVHouston limousine limos limoparty buses transportation
+p903
+aVhouston limo party buses rental services
+p904
+aVtransportation service
+p905
+aVride anywhere in houston
+p906
+aVLooking for ride FROM Houston area to Austin
+p907
+aVHouston Tx to Anderson In
+p908
+aVCheap Rides In & Around Our City !!!
+p909
+aVNeed a ride Houston to Brownsville today
+p910
+aVRide offered Houston to Wisconsin leaving 4/9 or 4/10
+p911
+aVRide Offer Billerica, MA - Houston,TX
+p912
+aVride to austin
+p913
+aV**Offering safe rides for Final Four Cash only please ***
+p914
+aVRide Offered Austin - HOU - Beaumont - Lake Charles - Baton Rouge
+p915
+aVRide offered to san antonio
+p916
+aVCheap Rides In & Around Our City !!!
+p917
+aVtransportation service
+p918
+aVCheap Ride! Out of Houston Special!!!
+p919
+aVNeeding a ride from IAH to Galveston
+p920
+aVneed a ride to austin
+p921
+aV$25 Car Rides 24/7
+p922
+aVProfessional Personal Driver Affordable
+p923
+aVCheap Rides In & Around The City !!!
+p924
+aVNeed a ride
+p925
+aV$25 one way to anywhere in Houston
+p926
+aVNeed a ride, 14 mile round trip, will pay you
+p927
+aVNeed a way home back to Las Vegas my family & i
+p928
+aV24/7 TRANSPORTATION AVAILABLE
+p929
+aVDriving to New Orleans this Saturday the 2nd, $30
+p930
+aVCheap Rides In & Around The City !!!
+p931
+aVRideshare offered April 2nd
+p932
+aVRide anyware cheap
+p933
+aVCheap Rides In & Around Our City !!!
+p934
+aVRide offered to Austin today in the PM
+p935
+aVRide to dallas
+p936
+aVneed ride to CA a.s.a.p!
+p937
+aVHouston to anywhere $1/mile - 100 mile minimum.
+p938
+aVRide needed to newyork
+p939
+aVHouston to anywhere $1/mile - 50c roundtrip
+p940
+aVNeed Help moving from Houston to Denver
+p941
+aVHouston to Dallas on Sunday April 3rd
+p942
+aVCASH RIDES DAILY CHEAP!!
+p943
+aVNeed a ride to Dallas area
+p944
+aVDriving to new Orleans today
+p945
+aVHouston to New Orleans
+p946
+aVI will pay gas to drive your car 1 way to Louisiana/Florida
+p947
+aVNeed ride to Ohio
+p948
+aVAre you driving to California?
+p949
+aVneed regular rides to work
+p950
+aVISO ride to Dallas
+p951
+aVLooking for a ride from a kind and generous person
+p952
+aVRide needed to Austin and back Sat March 26
+p953
+aVRide offered to Austin from Houston today March 26-Saturday
+p954
+aVATLANTA TO HOUSTON 55$
+p955
+aVTransportation
+p956
+aVLincoln mkx
+p957
+aVNorth to Huntsville/Livingston area
+p958
+aVRide Offered Heading to Baton Rouge Sunday
+p959
+aVAnyone need a ride from Houston to Michigan or anywhere along the way?
+p960
+aVNEED RIDE (Texas City to Phoenix Az)
+p961
+aVI need a part time driver
+p962
+aVWest on i40, california, new mexico, arizona
+p963
+aVRide offer, west to california northern
+p964
+aVhave truck, offering misc services
+p965
+aVfemale rider wanted - free rides please read
+p966
+aVSugerland,Stafford,Richmond Rideshare Service Affordable Rates
+p967
+aVSugerland,Stafford,Richmond Rideshare Service Affordable Rates
+p968
+aVFamily of 4 needs a ride to McKinney, TX (north of Dallas) from Spring
+p969
+aVSeeking one way ride to Katy Mills Mall
+p970
+aVrideshare
+p971
+aVRIDESHARE ANYWHERE ***AFFORDABLE RATES
+p972
+aVMiamian needs ride to Padre Island for Tego concert
+p973
+aVRide Offered Houston - Austin Tomorrow
+p974
+aVHouston to Miami Beach
+p975
+aVDriving to Houston Wednesday 3/30
+p976
+aVRide offered from Houston to Austin on Wed or Thu night (3/23 or 3/24)
+p977
+aVINDEPENDENT DRIVER AVAILABLE
+p978
+aVINDEPENDENT DRIVER AVAILABLE
+p979
+aVINDEPENDENT DRIVER AVAILABLE
+p980
+aVHouston > Dallas
+p981
+aVNeed ride from U of H area to Missouri City Tomorrow morning Please
+p982
+aVAnyone driving daily from pasadena to AutoNation in Gulf Freeway
+p983
+aVAustin 3/25
+p984
+aVPlanning to drive to Austin to visit the night life, need a companion
+p985
+aVTraveling to Austin
+p986
+aVRide
+p987
+aVPERSONAL DRIVER
+p988
+aVNeed a ride from U of H area to Missouri City in the morning
+p989
+aVRide offered Houston to NOLA tomorrow 22nd
+p990
+aVNeed ride to Louisiana
+p991
+aVtransportation service
+p992
+aVOffering a ride Tonight from Houston to Austin
+p993
+aVLocal Rides.. Cheap flat rates!! TODAY ONLY 12/22/2015
+p994
+aVCheap rides.. Starting @$10 I travel up to 200 miles outside Houston
+p995
+aVWashington State
+p996
+aVBeaumont tx
+p997
+aVNEED A RIDE?
+p998
+aVLooking for rides
+p999
+aVLooking to ship a car from Houston to Falls Church Virginia
+p1000
+aVHouston to Austin soon.
+p1001
+aVSprinter Van Load to Chicago, KC, STL, Denver CO
+p1002
+aVTransportation
+p1003
+aVlincoln mkx
+p1004
+aVDriving to Austin tonight
+p1005
+aVPlanning a trip 2 Florida? Tow my tiny travel trailer anytime this yr
+p1006
+aVNeed ride to Louisiana
+p1007
+aVRide from Houston to New Orleans now
+p1008
+aVNeed ride to NOLA ASAP PLZ
+p1009
+aVHouston to Chicago
+p1010
+aVDo you need transportation to any areas of houston or othe cities
+p1011
+aVINDEPENDENT DRIVER AVAILABLE
+p1012
+aVINDEPENDENT DRIVER AVAILABLE
+p1013
+aVRide offer: West to Tuscon. Will drop off anywhere in between.
+p1014
+aVLooking for rides
+p1015
+aVHouston - Dallas - Houston (3/18/16 to 3/20/16)
+p1016
+aVDo you need transportation to any part of Houston or other cities
+p1017
+aVtransportation service
+p1018
+aVReally needing a ride out west
+p1019
+aVDesperately need ride out of houston
+p1020
+aVHouston Hobby to Austin
+p1021
+aVNeed a ride to Austin 2 people
+p1022
+aVride to austin
+p1023
+aVNeed ride to Fresno California before spring break is over
+p1024
+aVFrom Houston to South padre
+p1025
+aVMy ride cancelled
+p1026
+aVOffered: Houston to Austin today 3pm (flexible)
+p1027
+aVCheap Ride Offer in Houston
+p1028
+aVCheap Ride to Austin ALL WEEK
+p1029
+aVneed ride from houston to austin...we're cool!
+p1030
+aVLooking for a ride from Houston to Miami for Ultra Music Festival
+p1031
+aVNew Orleans $40 3/15
+p1032
+aVemergency ride to houston hosp
+p1033
+aVRide Needed From Houston To Kaufman TX March 23rd
+p1034
+aVLOST: MANUEL TRIVINO MORA
+p1035
+aVHOUSTON TO AUSTIN 3/15
+p1036
+aVPlease help family get home
+p1037
+aVHouston to New Orleans
+p1038
+aVDriving from Houston to Portland OR!
+p1039
+aVNEED A RIDE?
+p1040
+aVNEED A RIDE?
+p1041
+aVNEED A RIDE?
+p1042
+aVtransportation service
+p1043
+aVRide needed from Houston Hobby to Austin
+p1044
+aVRide Offered Heading to Baton Rouge Sunday
+p1045
+aVStill stranded in Houston can u help?
+p1046
+aV2005 jeep grand Cherokee 3.7 v 6
+p1047
+aVtransportation service
+p1048
+aVstranded missed my bbus
+p1049
+aVHelp stranded in Houston
+p1050
+aVif u need a ride truck to move something I'm offering rides from 30$up
+p1051
+aVDo you need a ride to any areas of houston or other cities
+p1052
+aVCheap out of state ride!
+p1053
+aVHelp stranded in Houston
+p1054
+aVtransportation service
+p1055
+aVLooking for a ride West
+p1056
+aVNew Orleans Friday, Saturday? I can chip in.
+p1057
+aVWant to go to Austin today, can pitch in $15 for gas
+p1058
+aVCHEAP OUT OF TOWN RIDE
+p1059
+aVSpring....Anyone going to Corpus on Thurs eve./ Fri?
+p1060
+aVride offered houston to austin today march 10th pm or am march 11th
+p1061
+aVtransportation service
+p1062
+aV24/7 TRANSPORTATION AVAILABLE
+p1063
+aV24/7 TRANSPORTATION AVAILABLE
+p1064
+aV24/7 RIDE & RODEO SPECIALS
+p1065
+aVOffer. Houston to Austin today
+p1066
+aVLeaving Houston to Austin today as soon as possible
+p1067
+aVDaily Ride from Pearland to Houston
+p1068
+aVlittle cat
+p1069
+aVtransportation service
+p1070
+aVTransportation
+p1071
+aV24/7 TRANSPORTATION AVAILABLE
+p1072
+aV24/7 TRANSPORTATION AVAILABLE
+p1073
+aV24/7 TRANSPORTATION AVAILABLE
+p1074
+aV24/7 TRANSPORTATION AVAILABLE
+p1075
+aV24/7 TRANSPORTATION AVAILABLE
+p1076
+aVRide offered for grocery, doctor, other
+p1077
+aVLimousine & Limo party buses rental service
+p1078
+aVSXSW Ride Thursday
+p1079
+aVOffer a ride to San Antonio
+p1080
+aVPorter (Kingwood) to Huntsville M-F
+p1081
+aVtransportation service
+p1082
+aVnecesito transportar muebles a Corpus
+p1083
+aVRideshare or split to RGV Rio Grande
+p1084
+aVSeeking ride to Florida by March 11
+p1085
+aVRide to Work Needed
+p1086
+aVtruck/taxi
+p1087
+aVFord Ranger/taxi
+p1088
+aVtransportation service
+p1089
+aVRide Offer: to Tampa, FL ... or Anywhere along the way. Tues 3/8
+p1090
+aVSeeking Carpool To & From Katy
+p1091
+aVtransportation service
+p1092
+aVtransportation service
+p1093
+aVWeekly Houston to Irving, Irving to Houston
+p1094
+aVcheap ride
+p1095
+aVtransportation service
+p1096
+aVIf you need a ride to any parts of houston or other cities call us
+p1097
+aVNeed a ride in Houston?
+p1098
+aVClear Lake to Inner Loop - Evening Shifts
+p1099
+aVSeeking Ride from Houston to Asheville, NC in early March
+p1100
+aVtransportation service
+p1101
+aVtransportation service
+p1102
+aVHeading to Kentucky End of March
+p1103
+aVtransportation service
+p1104
+aVNeed a ride on 3/4/16 (Friday)
+p1105
+aVDriving to Dallas tomorrow
+p1106
+aVRide needed at 6am for Race Against Violence 3/5/2016
+p1107
+aVtransportation service
+p1108
+aVRide west offered - Tx to AZ
+p1109
+aVRines18
+p1110
+aVTruck leaving for Denver in the next few days
+p1111
+aVI really need a ride to downtown Houston!
+p1112
+aVRIDE OFFERED: Houston to Dallas 3/2
+p1113
+aVtransportation service
+p1114
+aVtransportation service
+p1115
+aVTax deduct 100% on your next family trip (Click Here)
+p1116
+aVFamily needing ride to houston area
+p1117
+aVcar
+p1118
+aVtransportation service
+p1119
+aVneed a ride
+p1120
+aVRide needed to Florida/Georgia
+p1121
+aVtransportation service
+p1122
+aVPassing Through Shreveport?
+p1123
+aVHouston to San Antonio
+p1124
+aVlooking for a ride
+p1125
+aVtransportation service
+p1126
+aVDriver Needed To Transport Me & My Pup
+p1127
+aVHouston to Austin
+p1128
+aVRide Offered Austin - HOU - Beaumont - Lake Charles - Baton Rouge
+p1129
+aVLimousine & Limo party buses rental service
+p1130
+aVneeding ride from houston to dallas
+p1131
+aVtransportation service
+p1132
+aVtransportation service
+p1133
+aVWe need a ride, 16 people Sat 2/27, Crystal Bch to Galveston, 7:30pm
+p1134
+aVAvailable for Bush Airport, Spring, Humble pickups
+p1135
+aVRide share to Victoria on the 14
+p1136
+aVOffering Ride from Houston Tx to Princeton NJ
+p1137
+aVNeed Something Moved In N. Houston? Need A TrucK?
+p1138
+aVFor trips to functions and jobs call jason. For cheap, fast and reliable transport to all parts of Houston city, call Jason show contact infoquality service is guaranteed.
+p1139
+aVFor trips to functions and jobs call jason. For cheap, fast and reliable transport to all parts of Houston city, call Jason show contact infoquality service is guaranteed.
+p1140
+aVFor trips to functions and jobs call jason. For cheap, fast and reliable transport to all parts of Houston city, callshow contact infoGuaranteed quality service
+p1141
+aVI posted once before, seeking ride to clear up a Drivers License issue in Dallas. Two people responded : one guy, ABSOLUTELY COOL just offering a ride out of kindness...and another guy who audaciously kept texting me seeing 75$...then 50$...then 25$....gave me the creeps, totally.I'm not able to pay the 18$ Greyhound few to Dallas, so I'm just seeking someone going to Dallas that'd let me ride with them?Respectfully,James
+p1142
+aVYo!I will be flying into Houston around noon on Friday 4/29. I'm looking for a ride from Houston to Austin around that time of day. I will be in town doing some photo/press stuff for the Austin Psych Fest. I am a 25 y/o male who is super friendly and willing to make good conversation along the way!Please consider my offer, as I am not too affluent with the currency stuff :(
+p1143
+aVPink Limo Houston Limousines Wedding - Prom - Quinceanera - Birthday - Bachelorette - Night Out - Concert - EventsIf you are searching for a Limousine rental service in Houston that offers a wide selection of fleet choices, you have come to the right place. We offer a complete variety of luxury limousines ranging from stretch limousines to classic limousines, SUVs, mini buses, party buses and pink and custom limos.See our fleet at www.limorentaltx.comCall us at (281) 475-333six
+p1144
+aVFemale needs transportation for herself and her two dogs (Pyrenees mix approx. 92lbs and Lab mix approx. 75 lbs) Wednesday, April 13th needs to be picked up in Houston (IAH) at United Cargo at 7:30pm. Will need to be driven to Reinicke st. in Houston, Texas 77007Please have a vehicle large enough to carry 2 kennels2 dogs2-3 suitcases and female passenger. Please send Reasonable Quotes or call. Thanks
+p1145
+aVHurry ends soon.....Make over $2500 a dayFast results.....no exp needed.....25 spots leftBe paid easily......PRESS LINK BELOW....... Then watch full Instructions Video http://wow30.com/6630817048478622803.htmW.,X W., W.W DMW
+p1146
+aVFast income now.....Make over $3000 a day fastno skills needed.....Free software.....20 min dailyGet paid today fast.......PRESS LINK BELOW....... Then watch full Instructions Video http://ladderstepps.com/6332907551307167969.htm;LDWMEDLKMWELKEMDW
+p1147
+aVHeaded up to Austin on Wednesday. I have a little extra room and thought I'd offer a ride. Email me if interested. Thanks
+p1148
+aVHello. I'm offering transportation services in the Westchase area. I have a 2011 Toyota Camry. I'm available weekdays after 3:00pm and anytime on weekends. I'm pretty reasonable...just looking to help someone while earning a little extra money to supplement my current income.
+p1149
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, home/work, drop offs at Boat cruises port, or bar hopping. I'm that kind of person that can get you to your destination for a flat fee of $25 "Cash" one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text for faster response atshow contact infoJoe
+p1150
+aVIn need of a ride ? Offering transportation in Houston & Surrounding areas.No out of state locations outside of Texas.Professional service and clean 2016 vehicle.Cash upon pick up for all clients no exceptions.Must have valid address for pick up & drop off.Call or text for rates.Thank You for your business.Contactshow contact info
+p1151
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, home/work, drop offs at Boat cruises port, or bar hopping. I'm that kind of person that can get you to your destination for a flat fee of $25 "Cash" one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text for faster response atshow contact infoJoe
+p1152
+aVIntroducing SmartRiderz.com. Ride Sharing just got smarter. SmartRiderz is FREE to post and very easy to use. Once you have posted your requested Trip information, Approved Drivers will then make offers to complete your Trip Request. You then can look over reviews from other users to and once you've found the Driver that's perfect to perform your Trip, accept their offer to assign them to the perform the Trip.After you have accepted an offer, you will add money to your online Wallet, which is securely held until the requested Trip has been completed. This allows the Driver the peace of mind knowing there they will get paid once the Trip has been completed. Funds are only released once both of you are satisfied that the requested Trip has been completed.No More Surprises For Riders Because You Know Exactly What Your Trip Costs Upfront!!!Drivers Get Paid When Trip Is Completed. No More Waiting To Get Paid!!!https://www.smartriderz.com
+p1153
+aVIntroducing SmartRiderz.com. Ride Sharing just got smarter. SmartRiderz is FREE to post and very easy to use. Once you have posted your requested Trip information, Approved Drivers will then make offers to complete your Trip Request. You then can look over reviews from other users to and once you've found the Driver that's perfect to perform your Trip, accept their offer to assign them to the perform the Trip.After you have accepted an offer, you will add money to your online Wallet, which is securely held until the requested Trip has been completed. This allows the Driver the peace of mind knowing there they will get paid once the Trip has been completed. Funds are only released once both of you are satisfied that the requested Trip has been completed.No More Surprises For Riders Because You Know Exactly What Your Trip Costs Upfront!!!Drivers Get Paid When Trip Is Completed. No More Waiting To Get Paid!!!https://www.smartriderz.com
+p1154
+aVFor trips to functions and jobs call jason. For cheap, fast and reliable transport to all parts of Houston city, callshow contact infoGuaranteed quality service
+p1155
+aVFor trips to functions and jobs call jason. For cheap, fast and reliable transport to all parts of Houston city, call showshow contact infoGuaranteed quality service
+p1156
+aVLooking for a ride to Michigan asap have gas money waiting in Michigan just looking for someone who is already going that way or to Michigan im more than willing to help out with unloading or loading I only have maybe three small bags of clothes that I need please no asking me to drive your unless you are going to I don't feel comfortable doing that just because I don't know you an you don't know me
+p1157
+aVIn need of a ride ? Offering transportation in Houston & Surrounding areas.No out of state locations outside of Texas.Professional service and clean 2016 vehicle.Cash upon pick up for all clients no exceptions.Must have valid address for pick up & drop off.Call or text for rates.Thank You for your business...Contactshow contact info
+p1158
+aVI dont work i dont go to school i stay home i have a 2012 dodge caliber sxt i know my way around houston good sense on direction and i like to drive and this will be cash or check only im offering rides in houston and vicinity i charge for gas and the ride all included at a price but i am flexible and willing to compromise
+p1159
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, home/work, drop offs at Boat cruises port, or bar hopping. I'm that kind of person that can get you to your destination for a flat fee of $25 "Cash" one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text for faster response atshow contact infoJoe
+p1160
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, home/work, drop offs at Boat cruises port, or bar hopping. I'm that kind of person that can get you to your destination for a flat fee of $25 "Cash" one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text for faster response atshow contact infoJoe
+p1161
+aVHi! Tomorrow (4/12/16) I need someone to take me and my dog to the Vet's office. I will pay $20 there...and $20 back home..So at the end of the trip you'll get $40. If you don't like dogs, please do NOT reply. If you can't wait around, until our appointment is over (not sure how long it'll take hopefully less than an hour) please do NOT reply. I'm off of Richmond Ave. & the Vet is off of Westview, about 18 mins away from me. My dog is less than 40 lbs. So he'll sit at my feet in the back. The vet opens at 10AM.. So I want to leave my home around 9:45.
+p1162
+aVI'm ready right now to take up to 4 to those cities listed above or their vicinity. $.50 cents a mile which is 1/5 of a taxi rate. Door to door.Clean newer car with cold AC. Non smoking in car please. Cash only please and upfront. Richard show contact info
+p1163
+aVTo work, appointment, shopping, or wherever you wanna go. Call me I can help.Rickshow contact info
+p1164
+aVDoor to Door Service very cheap very nice car clean non-smoking no drugs $40 flat rate call me. 943 $10 extra per person leaving tomorrow morning only which is Sundayshow contact infoRick
+p1165
+aVToday only I will take you to Dallas Ft Worth, Waco, Austin, San Antonio, Beaumont , or anywhere in between. My rates are 1/3 less than a taxi.I am available around 11 am.Please text details along with miles and I will send you a quote. Rickshow contact info
+p1166
+aVI will take you anywhere in Houston today and wait to bring you back.Cab driver for 15 years but do not charge taxi rates.Very clean car. Non smoking or drinking please.Only available till 1 pm. show contact infoRick
+p1167
+aVYou need a ride out of Houston or in Houston call me, I'm ready.Much cheaper than a taxi and much faster than a bus.Door to door. NON SMOKING PLEASE.Rickshow contact info
+p1168
+aVleaving april 14, can transport goods for cash ,and people,,, help with gas , 2010 crew cab truck , can haul trailer if needed. show contact info
+p1169
+aVIm a disabled amputee needs a good samaratan to give me rides to my various doctors appointment's and to the pharmacy as needed in PASADENA i barely survive on my disability income so I have no money to offer for gas I'm hoping someone available during the day will read this and be willing to help Need this help starting April 13th contact me by text day or night appreciate the help it's hard i have no family and no friends in the area I'm trying to remain living independently ALSO LOOKING FOR A PROVIDER SOON IF YOU NEED A JOB IT'S NOT ALOT OF HOUR'S BUT IT'S A JOB THE COMPANY IS GIRLING IT AVERAGES 2 HOURS PER DAY MON-FRI WANT MORE INFO TEXT ME OR REPLY TO THIS POST BY EMAIL !! Thank you in advance!! I LIVE IN PASADENA
+p1170
+aVyou need to get to el paso, las cruces, tucson, phoenix or vegas??? have room for 1 person with a suitcase or 2. want to leave houston on thursday april 14. chip in what you can for gas but be willing to share on driving a minivan. its 1200 miles to vegas and want to get there asap with both of us driving.
+p1171
+aVHi y'all,I'm looking for a ride from Houston to Austin on Saturday Apr 23, morning or early afternoon. If you have an extra seat, I'd be glad to help with gas money. Thanks!Claire
+p1172
+aVFor safe and guaranteed arrival to all parts of houston, call show contact infoProffessional drivers on call 24/7 of the day, We have several discounts availiable for a limited time.call to ask about our discounts
+p1173
+aVFor trips to functions and jobs call jason. For cheap, fast and reliable transport to all parts of Houston city, call Jason show contact infoquality service is guaranteed.
+p1174
+aVFor trips to functions and jobs call jason. For cheap, fast and reliable transport to all parts of Houston city, call showshow contact infoGuaranteed quality service
+p1175
+aVHi!.. Do you need a Ride?I'm a Friendly and trustful driver for all your driving needs, serving the Metropolitan area of Houston: major Airports, Hotels, Night Clubs, Designated Driver, Pubs, Shopping Centers, Ride to Work, Doctor Appointments, and more.I drive a small economical BMW compact car available to your service. *) Please send me an email, text or call me including your starting and ending destinations. So I can give you an estimate
+p1176
+aVI am looking for a ride.Anyone leaving the Houston area headed to the Miami or Fort Lauderdale area in the next few days?I can help with gas and driving.Let me know when you are leaving?
+p1177
+aVnice card
+p1178
+aVI'm looking for a female to ride with me to Miami Beach FL will stay about 4 days then return back to katy tx THANKS FEMALES ONLY
+p1179
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, home/work, or bar hopping. I'm that kind of person that can get you to your destination for a flat fee of $25 "Cash" one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text for faster response atshow contact infoJoe
+p1180
+aVOur drivers are experienced licensed rideshare drivers permitted to drive in the State of Texas and Greater Houston area. We offer 1-7 passenger capacity vehicles for trips anywhere in the Greater Houston area, airports runs and pickups, shopping excursions, Galveston, Beaumont, Lake Charles, Louisiana casinos, The Woodlands, etc. Whether it is a pick up at your office or place of business, residence, restaurant, hotel/motel/inn, airport or shopping malls/stores......I offer safe, reliable rides. You can also book your transportation needs with us at :www.walker-transport.com
+p1181
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, home/work, or bar hopping. I'm that kind of person that can get you to your destination for a flat fee of $25 "Cash" one way only in the Houston area. Yess I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text for faster response atshow contact infoJoe
+p1182
+aVOur drivers are experienced licensed rideshare drivers permitted to drive in the State of Texas and Greater Houston area. We offer 1-7 passenger capacity vehicles for trips anywhere in the Greater Houston area, airports runs and pickups, shopping excursions, Galveston, Beaumont, Lake Charles, Louisiana casinos, The Woodlands, etc. Whether it is a pick up at your office or place of business, residence, restaurant, hotel/motel/inn, airport or shopping malls/stores......I offer safe, reliable rides. You can also book your transportation needs with us at :www.walker-transport.com
+p1183
+aVIn need of a ride ? Offering transportation in Houston and surrounding areas.No out of state locations outside of Texas.Professionl service and clean 2016 vehicle.Cash upon pick up for all clients no exceptions.Must have valid address for pick up and drop off.Call or text for rates.Thank You for your business...Contactshow contact info
+p1184
+aVride offer anywhere.. 48 states or Local.MB Sprinter 2500 with Class A - driver,1 passenger + max 3,300 lbs Load
+p1185
+aVhello :) a ride is needed from Houston to vegas, or even reno if possible. please let me know! thank you
+p1186
+aVcan someone over 25 with an checking account rent me a car for 24 hours I will pay for it or put money in the account ride with me to Mississippi and I will pay for you to drive it back or I will pay for two days and you can keep it an extra day
+p1187
+aVgo anywhere with me in comfortable sedan...no one can beat this rate ...NOTE: FOR 50Mi atleast
+p1188
+aVgo anywhere with me in comfortable sedan...no one can beat this rate
+p1189
+aVgo anywhere with me in comfortable Car...no one can beat this rate sure
+p1190
+aVgo anywhere with me in comfortable sedan...no one can beat this rate
+p1191
+aVgo anywhere with me in comfortable sedan...Just text me and get best rate guaranteed
+p1192
+aVgo anywhere with me in comfortable sedan...no one can beat this rate
+p1193
+aVgo anywhere with me in comfortable sedan...no one can beat this rate for sure
+p1194
+aVgo anywhere with me in comfortable sedan...no one can beat this rate...
+p1195
+aVIf you are heading to Dallas and looking for someone to help drive or don't mind giving a ride. I don't mind pitching in for gas.I'm a CDL drive away driver needing to go now it you are.
+p1196
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, home/work, or bar hopping. I'm that kind of person that can get you to your destination for a flat fee of $25 one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text for faster response atshow contact info
+p1197
+aVYou and Your Group Need A Ride???...Call me I'll get you there!!!!16 Passenger van and driver waiting to transport you and your group.Reasonable RatesWe even travel out of town. Call us today. Need at least 24 hours notice for reservations.show contact info
+p1198
+aVI am an individual that is reliable for transportation from Monday's -friday's before 7a.m.until 8p.m.times. and saturday's & Sunday's after 6 p.m. until 11p.m.and affordable prices for rides,I can accommodate up to 2 people. I would appreciate for you to give me advance details,and times .I would appreciate advance notices if possible,I also do Airport rides and cruise ship rides.Thank you!Teressa .
+p1199
+aVWherever you need to go in Houston or even out of the Houston area I'm here for you.Call or text for details. Richardshow contact info
+p1200
+aVIn need of a ride ? Offering transportation in Houston & Surrounding areas including Dallas,Austin & San Antonio.No out of state locations outside of Texas.Cash upon pick up for all clients no exceptions.Must have valid address for pick up & drop off.Call or text for rates.Thank You for your business.Contactshow contact info
+p1201
+aVI need a ride to Tuscon from Kemah or houston I have valid DL and will chip in for gas Anytime apr 10 - apr 17 Eight 2 eight , 779 , 0348 because the captcha dosent work that well
+p1202
+aVHi there!Update: I'm headed to Austin tomorrow around noon or so tomorrow. Looking for a road buddy! If you can't contribute gas, maybe snackage? Tea? coffee? Stuff? There's room for stuff and I'm cool with dogs or cats too. Elizabeth
+p1203
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, home/work, or bar hopping. I'm that kind of person that can get you to your destination for a flat fee of $25 one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text for faster response atshow contact infoJoe
+p1204
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, home/work, or bar hopping. I'm that kind of person that can get you to your destination for a flat fee of $25 one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text for faster response atshow contact infoJoe
+p1205
+aV: MUST MENTION CL AD4 hours $661. + 1 hour FREE + FREE ADMISSION TO A GENTLEMANS CLUB5 HOURS LOCAL SERVICE all fees, gratuity & taxes included $661. [17 PASSENGER BUS]5 HOURS LOCAL in 10 PASSENGER STRETCH LIMO $487. all included6 HOURS in 14 PASSENGER EXECUTIVE VAN all included $525.Professionally chauffeured, towncars, suv's, passenger vans, limos & party buses available for all occasions.Wedding transportation, event transportation, quinceaneras, proms, cruise terminal transportation, airport shuttle, airport transportation to Bush International airport, William P. Hobby airport, Houston historical tours, Galveston historical tours.LIKE & FOLLOW us on FACEBOOK or GOOGLE+"Allstar transportation service & limousine"VIEW FLEET AND GET QUOTE.....www.allstarhouston.info
+p1206
+aVLuxury TransportationI provide personal transportation services to all cities, airports, casinos or wherever you want to go.Ride in a luxury vehicle.(Mercedes-Benz E Class 350) or 12 passenger Shuttle Bus.If you need a ride call me.show contact infoWill match all competitors rates and give you a 10% discount.Key Words: Need a ride, taxi, transportation, airport, casino, cruise ships, shuttle bus, work, lift, fare, car, trip, etc.
+p1207
+aVAnywhere you wanna go today or tomorrow. Much cheaper than those other with the yellow cars and the German name.Call and see.Rickshow contact info
+p1208
+aVYou name it I will take you. Even California or New York. Or anywhere in between. My name is Rick and my number isshow contact info
+p1209
+aVAnywhere you wanna go today or if you just need something delivered call me atshow contact infoRick.I am reliable and have been in the transportation business since 1988.I have thousands of past happy customers. Are you next.
+p1210
+aVBetween 8:30 am today I can pick you up and take you anywhere within Houston. I can possibly even wait. Rates cheaper than commercial transportation because I used to be a taxi driver for 17 years and I know.I have a nice clean newer model car. And I do not allow alcohol or smoking inside. I'm only available till 1 pm most days.I'm Rickshow contact info
+p1211
+aVI am going to either Dallas or Killeen Texas early Today or tomorrow Tuesday . Im just going to drop off a bin and after 1-2 hours coming back.If you need a ride to anywhere in the Killeen or Dallas Ft Worth area please reserve a seat. Also please do not call unless you are sure. Door to door service to Killeen $50 and to Dallas $100.Rickshow contact info
+p1212
+aVIf you need a ride to any of those destinations please text me your details and soon as I can I will text or call you back.Rickshow contact info
+p1213
+aVI will take you anywhere within 75 miles this morning for a half of taxi rates. I have a nice clean 4 door car (2013). But I'm only available from 8 am to 8 pm.Rickshow contact info
+p1214
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, home/work, bar hopping, or just trying to get home while being drunk. I'm that kind of person that can get you to your destination for a flat fee of $25 one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text for faster response atshow contact infoJoe
+p1215
+aV35 year old professional male looking for a driving companion to help me drive from Houston to Dallas .call or text me at 8 three 2 8nine7six2nine4. Must be the age of 18 to 50. Must be single. Will leave between 2 and 5 a.m. on 4/9/16.
+p1216
+aVDo you wanna work as a Ride Share Driver?Just ask me for the sign up link to qualify and get a CASH BONUS up to $750.00The amount will vary from city to city, but in the BIG CITIES across the USA = $750.00CASH BONUS is PAID once you complete 100 trips.Be your own boss, and work when you want.You can just work when you have free time.This is the current PROMOTION for the month.Pay Day is EVERY Thursday via Direct Deposit.
+p1217
+aV$70 only...houston to port arthur/braumont/nederland
+p1218
+aVgo anywhere with me in comfortable sedan...no one can beat this rate
+p1219
+aVgo anywhere with me in comfortable sedan...no one can beat this rate
+p1220
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, home/work, bar hopping, or just trying to get home while being drunk. I'm that kind of person that can get you to your destination for a flat fee of $25 one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text for faster response atshow contact infoJoe
+p1221
+aVI am leaving today or early tomorrow morning (Monday).Room for 4 in a nice 2013 clean car.Good deal for you.Call or textRichard atshow contact info
+p1222
+aVHeading back home to new orleans. Want to come along? Leaving soon so hop in the car. Call me!
+p1223
+aVhi ,I m atlanta ,GA I will come houston on sun, mon,tue day ,call ASAP book soon
+p1224
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, home/work, bar hopping, or just trying to get home while being drunk. I'm that kind of person that can get you to your destination for a flat fee of $25 one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text for faster response atshow contact infoJoe
+p1225
+aVNeed a ride for one person from Houston to Phoenix AZ. I have a valid DL. I can contribute with Driving and some Gas expense.Text only I am on roamingshow contact info
+p1226
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, home/work, bar hopping, or just trying to get home while being drunk. I'm that kind of person that can get you to your destination for a flat fee of $25 one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text for faster response atshow contact infoJoe
+p1227
+aVfemale rider wanted Nacodoches - Texarkana - Little Rock
+p1228
+aVHispanic female 35 yo ... First thing first I'm so broke that I can't even afford to pay for the bus fare to get back home. My new ex roommate that I just moved in with last week... No joke. Told me this Tuesday night that we are being evicted due to the rent being too far behind.. Like 3 months behind. He refuses to help, Im not sure exactly why. But the eviction date is TODAY! Please if anyone is driving from Baytown to Houston today, tonight I would really appreciate a ride. If you are wanting to see a pic thats fine I'll email one if you send one as well. Please I just want to go off of Hardy Toll Rd and Beltway 8. Please anyone. Thank you.
+p1229
+aVHispanic female 35 yo ... First thing first I'm so broke that I can't even afford to pay for the bus fare to get back home. My new ex roommate that I just moved in with last week... No joke. Told me this Tuesday night that we are being evicted due to the rent being too far behind.. Like 3 months behind. He refuses to help, Im not sure exactly why. But the eviction date is TODAY! Please if anyone is driving from Baytown to Houston today, tonight I would really appreciate a ride. If you are wanting to see a pic thats fine I'll email one if you send one as well. Please I just want to go off of Hardy Toll Rd and Beltway 8. Please anyone. Thank you.
+p1230
+aVHey guys this is for all you hard workers who are stressed tired and in need of a great time and some relief I am back in town here for the week hoping to see some of you first timers all straight men who are curious and looking for something exotic and Latina so if you're interested in something that's real and to fulfill your fantasies hit me up eightthreetwo twosixsix sixnineonezero
+p1231
+aVHi,Driving to Dallas/Plano (75093) every Friday (Evening).route - i45 N --> US75 Nreply if you wanna Join me.-- Nanda
+p1232
+aVHi,Driving to Dallas/Plano (75093).route - i45 N --> US75 Nreply if you wanna Join me.-- Nanda
+p1233
+aVI'm driving to Dallas this coming Saturday or Sunday morning early. I have room for 4 individuals. i will take you door to door. I will be coming back to Houston Sunday evening. Same deal. Call or text (do not email ) for more info.Richard show contact info
+p1234
+aVAnywhere you wanna go today or tomorrow. Text details and I will contact you with a quote. Rickshow contact info
+p1235
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, home/work, bar hopping, or just trying to get home while being drunk. I'm that kind of person that can get you to your destination for a flat fee of $25 one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text for faster response atshow contact infoJoe
+p1236
+aVHey, I need a one-way ride to New Orleans. I have a valid Louisiana DL and can help with driving. I am also a trustworthy, reputable current Airbnb host since 2010. Shoot me a message if this sounds ideal to you!
+p1237
+aVIndividual seeking ride from Heights (or downtown, or Galleria, Or Memorial, or I-10/Bw8, or I-10/Hwy6 - in that order of preference) around 9am Sunday mornings.Thx.
+p1238
+aVFEMALE ONLY free ride from Houston to Texarkana or point in-between - leaving in a day or two - MikeFor the right person pressing on to Little Rock is a possibility.FEMALE ONLY
+p1239
+aVHi my name is Rocko I am a experienced musician and traveler. My grandmother is ill and I need to get home to San Diego . Will share driving
+p1240
+aVIm reaching out today because I desperatly need someone to help me tow my car from Santa Fe to a mechanic shop in Alvin....i honestly dont have the $ to pay a tow truck. My car has to be moved today otherwise im going to lose it...im a single mom and im trying to get on my feet but im being held back from moving forward since my car broke down a month ago...i had to send my kids 2 hours away to stay with my sister...i had no choice bc right now im homeless & im trying to figure this out...my family refuses to help me im pretty glad they wouldnt turn away my kids.....
+p1241
+aVanyone interested in a rideshare to NOLA leaving today Apr 6th at around 4p or earlier. ONE WAY only. I have a 2015 chevy Equinox SUV.make me an offer i cant refuse.text me only.
+p1242
+aVHi,I have Honda Oddessey 8 seater van in Sugar Land TX which I need to send to New York or Toronto on May 16-19 so that I can get that in New York or Toronto on May 19 or max May 20 noon time. If you are planning to go to New York or Toronto with your friends or family, you can drive that for free.Let me know if some one is interested.RegardsZahid
+p1243
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, home/work, bar hopping, or just trying to get home while being drunk. I'm that kind of person that can get you to your destination for a flat fee of $25 one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text for faster response atshow contact infoJoe
+p1244
+aVPlease contact us for more info and specials,http://www.houston24limo.com/reservation.html show contact infoshow contact infoPlease visit our website for more information,http://www.houston24limo.com/Houston Bus servicewww.houston24limo.comPlease call for quotehttp://www.houston24limo.com/reservation.htmlHomecoming, casino Trips, Casino Shuttle, Houston Limousine, Limousines for Prom, Huston Airport Transportation, Houston Sedan Service, Town Car Service in Houston, Houston Airport Limo, IAH Shuttle, Hobby Shuttle, Night Out Service, Town Car Airport, Houston Limos, Houston Limo, Wedding Limo, Houston Limousines, Prom Limo, Hummer Limo, Limousine Bus, Limo Houston, Airport Limousine, Houston Transfer, Limo in Houston, Limo Houston, Suv Limousine, Limo in Houston, Houston Wedding Limos, Hummer Limousines, Party Buses Houston, SUV Limos Houston, Limo Service Houston, Galveston Cruise Transportation, Galveston Limousine Service, Cruise Line Service, Galveston Cruise Shuttle, Prom Limos, Limo Houston, Limousine Service in Houston TX, Houston Busshow contact info
+p1245
+aVAnyone need a ride to or from the airport or anywhere in houston call me im available anytime until 3pm show contact info
+p1246
+aVHello unfortunately my ride canceled last minute therefore I need a ride to bush airport at 4 am I live off of beltway and 225
+p1247
+aVHey guys,I am making a drive from Miami,FL to Austin Texas for the Euphoria Music Festival. I will be leaving on Wednesday 04/07 and arriving there the next day. The route will travel through all of Florida, through Louisiana , Houston TX, to finally arrive in Austin. If you happen to be going as well and could use a ride, I would be willing to pick you up. I will be reasonable for the rate, it would honestly just help me cover gas costs for this 2600 mile round-trip. Feel free to text or give me a call whenever.Davidshow contact info
+p1248
+aVFor safe and guaranteed arrival to all parts of houston, call show contact infoProffessional drivers on call 24/7 of the day, We have several discounts availiable for a limited time.call to ask about our discounts
+p1249
+aVFor trips to functions and jobs call jason. For cheap, fast and reliable transport to all parts of Houston city, call Jasonshow contact infoGuaranteed quality service
+p1250
+aVI will be driving to california April 16th and don't want to ride alone. Preferably looking for female as I am female. Someone with valid license and willing to help drive. Can drop you off elsewhere if you have a destination other than California
+p1251
+aVI need a ride to Houston Texas greyhound station in downtown from Katy Texas.. I will give 20 bucks for me to get dropped off there... Call me at show contact infono texts please. Hope to hear from someone. Thanks
+p1252
+aV(979)Looking for a ride to St. Louis, MO this coming weekend. Either friday evening or Saturday. (316)Im about an hour south of Houston. (0980)If anybody in the area could help out please let me know. Name is Michael.
+p1253
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, home/work, bar hopping, or just trying to get home while being drunk. I'm that kind of person that can get you to your destination for a flat fee of $25 one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text for faster response atshow contact infoJoe
+p1254
+aVHi, we are a couple searching for a ride to Georgetown or if someone is going to Austin and could drop us off somewhere near the exit to Georgetown, our relatives could pick us up. Either friday night or saturday morning. Thanks Tereza + JeremyPS: We are willing to contribute for gas, but please no "taxi" offers since in that case it is cheaper for us to take our car. Thanks
+p1255
+aVHey I'm leaving to head to Pensacola FL on 4/7 and need someone to help driving , I can drop you anywhere along the way if you need and I will be heading back 4/9 if you need me to pick you back up , would need a lil help with gas maybe like $10 or $20
+p1256
+aVHi we all have heard the crazy stories about the U-Ber Drivers and the City Cabs can take forever and prices are outrageous I'm Here to offer you a comfortable affordable ride to and from any location in the Houston area I'm fully covered and licensed if you're looking for a Designated Driver please don't hesitate to call or Text me at show contact infoplease send locations where you are and where you are going so I can give you a actuate rate!!!! Serious inquires only
+p1257
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, home/work, bar hopping, or just trying to get home while being drunk. I'm that kind of person that can get you to your destination for a flat fee of $25 one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text for faster response atshow contact infoJoe
+p1258
+aVLet me know if anybody is riding to texas from Toronto after the 13th April. I can drive and will share gas and other expenses.
+p1259
+aVYoung professional in town for the Final Four, game ends late Monday (4/4) night. My flight departs out of Austin airport at 6:00AM Tuesday (4/5) morning, need to be there by 5:00AM at the latest. I'm looking to leave Houston any time between midnight and 2:00AM. I can pay for all gas and meet you anywhere in Houston. George
+p1260
+aVhttp://www.houston24limo.com/reservation.htmlshow contact infoPlease visit our website for more information,www.houston24limo.comJOIN US AT OUR NEW FACE BOOK TO WIN UP TO TWO HOURS OF LIMO PARTY BUS RIDE.Face book = houston24limo http://www.houston24limo.com/http://www.houston24limo.com/reservation.htmlPlease call for quoteshow contact infoshow contact infoBirthday, Bachelor, Bachelorette, Anniversary, Quinceanera, Homecoming, school PROMLimousine houston, houston suv limousine, limo bus, houston limo rental, houston limousine transportation, Houston bus service, Limo party Bus, Limos.com, suv Limo, houston24limo, limo Houston, www.limohct.com
+p1261
+aVPlease visit our website for more information,JOIN US AT OUR NEW FACE BOOK TO WIN UP TO TWO HOURS OF LIMO PARTY BUS RIDE.Face book = houston24limo http://www.houston24limo.com/www.houston24limo.comHouston Bus servicePlease call for quotehttp://www.houston24limo.com/reservation.htmlshow contact infoBirthday, Bachelor, Bachelorette, Anniversary, Quinceanera, Homecoming, school PROMLimousine houston, houston suv limousine, limo bus, houston limo rental, houston limousine transportationLimo party BusLimos.comsuv Limohouston24limolimo houstonwww.limohct.com
+p1262
+aVPlease visit us athttp://www.houston24limo.com/reservation.htmlwww.limohct.com Please call for quoteshow contact infokaty TexasHouston TexasThe woodlands Texas, Sugar land RTexasCypress TexasSpring TexasLimousine LimosLimo Party Buslimo bus
+p1263
+aVAnyone need a ride to or from the air port or anywhere in houston call me show contact infoim available everyday 5am to 3pm
+p1264
+aVStarting at 35$ cheap rides anywhere in Houston day are night round the clock cheap rides starting at 35$ feel to call Joshuashow contact infoorshow contact infothank you can't wait
+p1265
+aVHi all,This coming Friday the 8th, I'm looking to catch a ride with somone around 2 or 3 pm (or later) to go to Austin.Let me know! Can split petrol.Sadie
+p1266
+aVNeed a ride my grandma is sick and I must get there.
+p1267
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, bar hopping, or just trying to get home while being drunk. This weekend it's gonna be a Super busy one especially for those people flying into our city for the NCAA Final Four Men's Basketball tournament events all over the cityI'm that kind of person that can get you to your destination for a flat fee of $25 one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text me for faster response atshow contact infoJoe
+p1268
+aVNeed a ride to Brownsville today will split gas Give me a call Chris show contact infoThanks
+p1269
+aVI will be driving from Houston to Wisconsin, departing on Saturday night (4/9) or Sunday morning (4/10). I will be passing through Dallas, Oklahoma City, Kansas City, Des Moines, and the quad cities. Let me know if you want to join!
+p1270
+aVHelloI'm having to relocate to Seattle from Boston with short notice on some internship workI have Toyota Rav4 in excellent condition currently in Billerica, to be moved to Houston, TX. If any one is looking for ride to TX , please feel free to reach me (email or Phone), can work out logistics.Dates are flexible, anytime time later this weekthanksB
+p1271
+aVNeed a ride to austin tonight or tomorrow. Preferably tomorrow around noon. I'll put in on gas. 420 friendly.
+p1272
+aVHey there! I'm a private driver here for the Final Four. Friendly, professional female with a clean record. Nice reliable 4 door sedan w leather seating. Please text me for a ride. Min $20-$25 + mileage & mins, based on travel time getting to you either within Houston or more, if outside Houston city limits.Text me & we can negotiate. Please have route/address ready.Thank you. \u263a\ufe0f
+p1273
+aVHeading east to Baton Rouge LA on Sunday. Willing to take you all the way out drop along the way. Please be able to share expenses.
+p1274
+aVDriving to San Antonio tomorrow,I can also go to san Marcos
+p1275
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, bar hopping, or just trying to get home while being drunk. This weekend it's gonna be a Super busy one especially for those people flying into our city for the NCAA Final Four Men's Basketball tournament events all over the cityI'm that kind of person that can get you to your destination for a flat fee of $25 one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text me for faster response atshow contact infoJoe
+p1276
+aVAnyone need a ride to or from the airport or anywhere in houston call me im available 5am thru 3pm mon thru sun show contact info
+p1277
+aVI offer cheapest ride to anywhere in Houston and beyondI have a 2014 Toyota Camry.Phone number isshow contact infoI currently have cheap out of houston rates now.
+p1278
+aV2 of us looking for a ride from IAH to Galveston on Sat 4/9 around noon. We are not looking to spend an arm and a leg
+p1279
+aVhay me and my brother and my dog need a ride to austin fast is there any one who can help we will have money for gas please not to outrageous of a price we smoke if that is ok thanks.
+p1280
+aVIt's gonna be a super busy weekend in Houston so instead let me do the driving for you...Way too many events going on all over the city & traffic is insane. I can be your driver. $25 one way ! Textshow contact info
+p1281
+aVProfessional Quality rides anywhere,anytime ,Houston Metro area and long distance cities late model vehicles call anytime. Best rates, daily discounts.$$$ Call 24hrs show contact info
+p1282
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, bar hopping, or just trying to get home while being drunk. This weekend it's gonna be a Super busy one especially for those people flying into our city for the NCAA Final Four Men's Basketball tournament events all over the cityI'm that kind of person that can get you to your destination for a flat fee of $25 one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a clean 2015 Chevy Malibu. Please text me for faster response atshow contact infoJoe
+p1283
+aVI am looking for someone either going or coming Houston Tx to Anderson In or Anderson In to Houston Tx
+p1284
+aVI am offering a ride to anywhere in Houston for a low cost of $25 cash. I do own a clean 2013 model vehicle. If needing a ride out of Houston we can work something out. Please email for a fast response.
+p1285
+aVI'm off plantation Dr in Conroe right off 45 and need a ride to 1488 and back which is also right off 45. It's 14 miles round trip (7 miles each way). Call or text show contact infoThank you.
+p1286
+aVMy family & I are in extreme need to get back home to Vegas. Its me , my husband and our 4&3 yr old and a newborn baby. We need help getting a ride from someone and if anything help paying for our bus ticket way home will help so much. I'm not asking for money whatsoever just help getting home. Call adam @ show contact infothank you
+p1287
+aV24/7 TRANSPORTATION AVAILABLE (HOUSTON & SUBURBS)24/7 TRANSPORTATION AVAILABLE @ VERY REASONABLE FARE IF YOU ARE LOOKING FOR SOMEONE WHO CAN DRIVE YOU SAFELY AND ON TIME PLEASE CONTACT .show contact info
+p1288
+aVDriving to New Orleans, planning to leave Houston around 9-10am. There's limited space in the car, room for 1 with reasonable size bags (I have all of my stuff in my 2 door Yaris). No smoking in car. One way drive. $30. I'm a singer/songwriter and heading to Massachusetts for a couple months. Excited to check out New Orleans on the way.
+p1289
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, bar hopping, or just trying to get home while being drunk. This weekend it's gonna be a Super busy one especially for those people flying into our city for the NCAA Final Four Men's Basketball tournament events all over the cityI'm that kind of person that can get you to your destination for a flat fee of $25 one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a 2015 Chevy Malibu. Please text me for faster response atshow contact infoJoe
+p1290
+aVI am a laid back easy going guy offering a ride from Houston to Dallas Saturday Afternoon.Let me know if you need a ride.
+p1291
+aVI'm offering Rides anyware in katy, Houston or any state or city for cheap Can even give rides to Mexico or Canada I'm Phillip I have a 2015 nissan altima clean ride Call or textshow contact infolocation and destination for quote
+p1292
+aVI drive all times of the day & night. Usually I drive to make it affordable for those that can't afford High taxi prices. Airport drop offs, conventions, bar hopping, or just trying to get home while being drunk. This weekend it's gonna be a Super busy one especially for those people flying into our city for the NCAA Final Four Men's Basketball tournament events all over the cityI'm that kind of person that can get you to your destination for a flat fee of $25 one way only in the Houston area. Yes I do surrounding areas as well but for an extra cost since it's not in the city limits. I am a very trustworthy person that drives a 2015 Chevy Malibu. Please text me for faster response atshow contact infoJoe
+p1293
+aVHeading to Austin late today and willing to drop you along the way. Please me willing to share expenses $30 to Austin Thanks
+p1294
+aVRide needed to Dallas. Asap. I can drive I have a license need a ride today. Can try to help with money. Please call my phone do not text
+p1295
+aVIf you are heading westward towards California in the next day or two and have room, please consider inviting me along! I am so desperate to get a ride that I will strap myself to your roof or squeeze myself into any uncomfortableness available. Please call me if interested and we can iron out the details.show contact infoAsk for rocko.Thanks
+p1296
+aVI have a 2010 Honda Odyssey that seats six riders for out of town trips - 100 mile miminum from Houston. I'll take up to six anywhere in the country from Houston. $1/mile and the roundtrip is on me if you are returning to Houston on my schedule. I don't mind laying over if the distance is OK. I'm flexible. Calling me is best, or texting. I'll drive to any state in the lower 48.
+p1297
+aVFemale Looking for a ride from Texas to Connecticut or new York or as close as I can get. I can help drive and I can try to help with money. Not really in a hurry. 
+p1298
+aVI have a 2010 Honda Odyssey that seats six riders. I'll take up to six anywhere in the country from Houston. $1/mile and the roundtrip is on me if you are returning to Houston on my schedule. I don't mind laying over if the distance is OK. I'm flexible. Calling me is best, or texting.
+p1299
+aVI am in Denver now but I need help moving some furniture from the Houston, TX area back to Denver. Needs to happen asap. Looking to share expenses.
+p1300
+aVFRIENDLY PERSONCAN PLAY ENGLISH SONG AS LONG AS YOU WANT GAS HELP NEEDEDCAN PICK YOU UP.CAN HAVE YOUR LUGGAGE TOO. LET ME KNOW IF YOU WANT TO GO..............
+p1301
+aVHi I am a clear background trusted driver for all of your favorite spots or destinations around Houston and the greater Houston area. I offer cash rides daily starting from 10$.Just text me the pickup and drop off point and I will give you an estimate. Vehicle is a 4 door sedan.Call or text today!
+p1302
+aVBuying a truck from a guy in collinsville tx, a little north of Dallas. Need a ride up there so I can drive truck back.
+p1303
+aVGotta a truck and a dog. Gas money would be great but if you're broke a little gas jugging will be fine. Ill be in Houston in three hours or so. My number isshow contact infoSummer
+p1304
+aVI am leaving Tuesday, March 29 from Houston in the evening and going to New Orleans that night. I am coming back April 1 at around 2 p.m. I don't even need gas money. I have an open spot if you need a ride.
+p1305
+aVI will be in the area in early May and am looking at hiring a car for the drive east. However at this time if you are looking to relocate your car for whatever reason, please let me know and maybe we can arrange something. No overheads for you I will pay gas.I am an Australian with an international drivers licence, travel insurance and solid driving history.
+p1306
+aVI'm look for a ride from Houston to Cincinnati Ohio as soon as possible will help with gas, I'm a 35yr old female I'm stranded and just need to get home clean no drugs or drama Thanks and God Bless
+p1307
+aVHi. I'm looking for somebody that has a truck that is driving to California before 4-13-16 that can tow a boat for me that I bought in Houston. I will pay for all of your gas. You must provide a clean dept. of motor vehicles printout and have a current license, registration, insurance and a dependable vehicle. Your vehicle must be capable of towing 5000 lbs. I can meet you in Houston prior to that date, and meet you at whatever destination you are going to in California.Thanks for looking.
+p1308
+aVThis ad maybe suitable for a driver that works or lives close to Fry rd. and I10 only. I am looking for a ride share from Whataburger 1225 N.Fry rd Katy TX to 1111 Houghton rd. Katy tx. The distance is only 2.5 miles. I work 4-5 days a week and it is one way ride around 5.00 pm.Contact Sara atshow contact info
+p1309
+aVHappy Easter on this beautiful Sunday everyone. My name is Amanda and I am trying to get my dad to Dallas from Houston to be closer to me. So if anyone is goin that way any help would be appreciated. He's a jovial guy so I know he will provide good conversation for the ride. Thanks for reading and we hope to hear from you. Have a good day.
+p1310
+aVHi, my name is Matt. I am 28, from Texas but live in Boulder, CO. I came here for business and did not rent a car. I bought a one way ticket bc it was cheaper at the time. I would like to take this open-ended stay as an opportunity to see my immediate family in Waco. THIS IS A LAST RESORT. I will be leaving on the 3rd. I'm hoping there is someone out there kind, trusting and generous, that will be heading that direction the same day. I have very little money and need it for a plane ticket back home so my hope is to tag along with someone on a mini road trip. I am currently staying at a hotel on the west side of I-45 on Fm 1960. I appreciate your time reading this post. Thank you.
+p1311
+aVI am looking for a ride today to Austin today March 26th, if you are headed that way, please get in contact as soon as possible with phone number. Thanks
+p1312
+aVI am offerring a ride to Austin today, Saturday March 26th. Get in contact if you are mature, responsible and willing to contribute generously to gas and help with driving thanks.
+p1313
+aVHi,APR 1 OR 2 WEEK
+p1314
+aVIn need of a ride ? Offering transportation in Houston & Surrounding areas including Dallas,Austin & San Antonio.No out of state locations outside of Texas.Professionsl service and clean 2016 vehicle.Cash upon pick up for all clients no exceptions.Must have valid address for pick up and drop off.Call or text for rates.Thank You for your business...Contactshow contact info
+p1315
+aVLincoln MKXYear 2011Leather Clean almost new It has only 85 milesNo problem runs perfect Españolshow contact infoInglesshow contact info
+p1316
+aVNeed to run an errand up to the Livingston area, if you need a one way or roundtrip ride in exchange for gas $. when and where, morning time preferred and we have plenty of trunk space.
+p1317
+aVHeading east to Baton Rouge LA on Sunday and can drop you along the way. Please text me if you can share expenses. Can drop you in Beaumont lake Charles Lafayette or to Baton rouge Thanks
+p1318
+aVGotta be in Michigan by Monday. Looking for a person to share driving responsibility and gas.
+p1319
+aVHello Travelers,Anyone got room for one person? I have a clean driving record, Non Smoker travel light. I can Contribute some money for Gas and can help driving. sometimes beginning of the month April would be nice. Can also be able to meet on I-10 in Houston for convenience.
+p1320
+aVHello! A bit about me:I do not have a license ..suspended. I am a very energetic educated entrepeneur working with people, animals, and orthopedics. I am launching my new business this month and have a lot of people to meet and hands to shake. Since I can not drive stress free, I am in need of a driver to help me do what I have to do. I do have some preferences.Please be between 22 & 27 and have an active and happy lifestyle Ideally a woman, I am a 32 year old guy.. But am not against any male drivers :)Please have some common interests with my above attributes :)Please live inside 610... But we will travel between Katy woodlands and memorial I don't plan on needing more than a 10-2 or 3pm "shift" 2 or 3 days a week to start. I do anything to avoid traffic and stay efficient on the road As soon as I have a bit of client growth... I'll need more driving and I will raise my paying ratei would prefer a newer cleaner car please ... We will be going to upscale placesAnd be able to at least have a "business casual" dressed look please. I can only pay $10 hr to start... It is all I can afford at this timeI would love to get to know you and offer any experience and expertise to you along the wayPlease send me a bit of info and a pic of you and your whip. LolFeel free to share anything or ask me anything. I'm an open book You can text me ... PreferablyI hope to who ever this "job listing"connects with takes action and says "hello :)"have a beautiful day!-eric
+p1321
+aVWill be getting ready to leave let tonite or early morning hours, depends how soon my truck gets loaded, will go thru dallas, fort worth area, and all way to i40 after california load that picks up on most likely sunday, so i have to leave houston by tomorrow to get to it and then head i40 west all way to los angeles and from there to northern california. So if your a fun minded person and need ride along these routes, then let me know,and if your kool you can ride with me, off course my truck doesnt run on water, so let me know what u got, and if nothing but ur really kool and fun to be with, then thats great too, after all its long way to cali and road does get me hella tired with a bunch of aches all over,, anyways if interested in ride, reply with your pics and details, my pic attached, and also please be clean person. No pets,
+p1322
+aVWill nlbe driving to california after finishing up in houston, if u need ride reply with your pics and details of u and ride and where u can be pickup from, i have asemi truck so you much come to a truck friendly area, also what u got for the ride, cash sounds good azz sounds fun, but grass is a total NO No NO, no drugs at all on truck, smoking is ok, but i dont smoke, so dont expect me join in, but will buy u packs if u fun enough, im a young slim fit built clean trucker, not your average trucker,,, clean truck and u be clean and,smell nice too. So reply with your pics and stuff and you get the ride if u kool person.
+p1323
+aVI'm a student at the University of Houston, that is just wanting to make a little extra cash for groceries, gas, and cigarettes. I drive an F-150 and am simply offering misc services.Need Help moving?Need a ride to/from work, school, the store, etc (only offer rides if you are 18+)?Need to haul anything (within reason, since I have a camper shell on my truck)?Need a designated driver to or from a bar or party?Or simply want someone to keep you company?Pretty much, simply respond to this ad, with where you are located, what job you need help with, and how much you are able to pay, and I'll be free most of this weekend, all next week, and every day until my current semester is over (during the week, with classes and such, has to be sometime between 6 pm-2 am, and during the weekend, I'm a little more flexible) to help you out.
+p1324
+aVFemale rider wanted. Destinations flexible, possible destinations include local Sugar Land area errands, long distance to Laredo or San Antonio. Time frame flexible. Must be over 18. Must be over 18. We will meet first a time or two to see if we are compatible, then we will hit the road together. Hope to hear from you soon.Rick
+p1325
+aVHi I have a 2012 Ford flex 3 row seating SUV. I have a city of Houston permit to transport. If you are looking to go any from Sugerland area I can transport you . My SUV seats 6 passengers and I have leather seats inside for a comfortable ride. Call me today I work 24/7show contact infoJoshua I have Square it's a credit or debit card processing machine if u don't have cash
+p1326
+aVHi I have a 2012 Ford flex 3 row seating SUV. I have a city of Houston permit to transport. If you are looking to go any from Sugerland area I can transport you . My SUV seats 6 passengers and I have leather seats inside for a comfortable ride. Call me today I work 24/7show contact infoJoshua I have Square it's a credit or debit card processing machine if u don't have cash
+p1327
+aVFamily of 4 (with 2 car seats) needs a ride to McKinney, TX. Any takers, email me back. We're looking to leave on Saturday morning, March 25.Thanks.
+p1328
+aVHi,I live in the south loop 610 & Main area and taking Megabus Friday night 3/25 to leave town for the weekend. The departure point is Katy Mills Mall. Apps have quoted me $39-$49 and Google says its about a 31 minute drive from my place. In short, looking for anyone willing to go lower than that.Ken
+p1329
+aVi have truck so i can pick something up for you, or give you a ride text me for rates i have a full time job so it will have to be after 5 or the weekend
+p1330
+aVgo anywhere with me in comfortable car...no one can beat this rate
+p1331
+aVI land in Houston tomorrow (3/24) at 11am, and the Tego Calderon concert is on 3/25. I'm trying to avoid 8 hrs on a Greyhound but they only charge $20 one-way. Text me an offer. I can get you backstage since i'll be performing.Girl(s) preferred (I'm a Dominican guy) but anyone with good vibes will do.Peace!
+p1332
+aVHeading out west from Baton Rouge to Austin. If you need a ride from Houston to Austin and willing to share expenses ($30) I can pick you up and drop you in Austin or along the way.Please text if interestedThanks
+p1333
+aVI'm going to Miami Beach Florida on 3/31/16 and staying for 5 days if anyone wants to join or need a ride Message me
+p1334
+aVI am driving from SFV to Houston, TX next Wednesday. Details can be negotiated. Let me know if you are interested. I am a 54 year old male professional, easy to get along with.
+p1335
+aVLeaving from Houston to Austin on either on either Wed night or Thu night (3/23 or 3/24).$20 to share the gas. Please contact me if you need a ride.
+p1336
+aVMY NAME IS MARCUSI CAN HANDLE ALL YOUR DRIVI NG NEEDS: FROM TRIPS TO & FROM THE AIRPORT,DOCTOR VISITS,SHOPPING TRIPS,BAR OUTINGS TO AVOID EXPENSIVE DUI'S,ANY AND ALL DRIVING NEEDS.MY RATES ARE CHEAPER THAN ANY TAXI OR SHUTTLE SERVICE IN THE AREA.MY RATES ARE VERY AFFORDABLE AND NEGOTIABLE. IF YOU HAVE NO LICENSE DUE TO SUSPENSION OR DUI CHARGES.I CAN HANDLE THOSE DRIVING NEEDS AS WELL, FROM PICK UP AND DROP OFF FROM YOUR RESIDENCE TO YOUR PLACE OF WORK.I OFFER ON TIME PICK UP & DELIVERY TO YOUR DESTINATION, ON TIME, EVERY TIME.I CAN BE REACHED ATshow contact infoI AM LOOKING FORWARD TO SERVICING ALL YOUR DRIVING NEEDS.
+p1337
+aVMY NAME IS MARCUSI CAN HANDLE ALL YOUR DRIVI NG NEEDS: FROM TRIPS TO & FROM THE AIRPORT,DOCTOR VISITS,SHOPPING TRIPS,BAR OUTINGS TO AVOID EXPENSIVE DUI'S,ANY AND ALL DRIVING NEEDS.MY RATES ARE CHEAPER THAN ANY TAXI OR SHUTTLE SERVICE IN THE AREA.MY RATES ARE VERY AFFORDABLE AND NEGOTIABLE. IF YOU HAVE NO LICENSE DUE TO SUSPENSION OR DUI CHARGES.I CAN HANDLE THOSE DRIVING NEEDS AS WELL, FROM PICK UP AND DROP OFF FROM YOUR RESIDENCE TO YOUR PLACE OF WORK.I OFFER ON TIME PICK UP & DELIVERY TO YOUR DESTINATION, ON TIME, EVERY TIME.I CAN BE REACHED ATshow contact infoI AM LOOKING FORWARD TO SERVICING ALL YOUR DRIVING NEED
+p1338
+aVMY NAME IS MARCUSI CAN HANDLE ALL YOUR DRIVI NG NEEDS: FROM TRIPS TO & FROM THE AIRPORT,DOCTOR VISITS,SHOPPING TRIPS,BAR OUTINGS TO AVOID EXPENSIVE DUI'S,ANY AND ALL DRIVING NEEDS.MY RATES ARE CHEAPER THAN ANY TAXI OR SHUTTLE SERVICE IN THE AREA.MY RATES ARE VERY AFFORDABLE AND NEGOTIABLE. IF YOU HAVE NO LICENSE DUE TO SUSPENSION OR DUI CHARGES.I CAN HANDLE THOSE DRIVING NEEDS AS WELL, FROM PICK UP AND DROP OFF FROM YOUR RESIDENCE TO YOUR PLACE OF WORK.I OFFER ON TIME PICK UP & DELIVERY TO YOUR DESTINATION, ON TIME, EVERY TIME.I CAN BE REACHED ATshow contact infoI AM LOOKING FORWARD TO SERVICING ALL YOUR DRIVING NEEDS.
+p1339
+aVI am driving to Dallas (Richardson/Plano/Allen/Frisco/McKinney area) on Wednesday March 23, 2016. Leaving around 10-11 am. I can pick you up along the way. I am asking for gas money.
+p1340
+aVCar is destroyed. Need a ride to work for the next week and a half until I can get some more transportation. If anyone is riding from the U of H or TSU area and is heading towards Missouri City, I can pay 20 dollars per day for a ride. I get off around 4:30. I do personal training so I could also work you out for free if you're trying to loose weight or get in shape. I'm currently in the University of Houston area, I do need transportation for about the next week and half to and from work please. It's about a 30 minute drive
+p1341
+aVHello. ! I am new to town, dont have a car yet but can pay gas money to anyone wanting to ride share from Pasadena ( burke and westmore) to the Toyota dealership by gulf freeway. I just this job and dont want to lose it due to no ride. Buses don't run that way and taxi is $40 round trip. Email me if anyone drives that way daily. I will pay gas and love u forever and forever be thankful Thanks so much
+p1342
+aVI'm driving to Austin early Thursday evening and have room for one clean, well-mannered rider. Nice car driven by a responsible guy. Non-smokers only.Got $$$? If not, have *something* to offer fer cryin' out loud...the art of the barter is not dead.
+p1343
+aVI am planning to drive to Austin weekend or any week depend on your convenience. if female companion preferred, I never been to the night life of Austin. I heard a lot of good things. Please reply so that we plan. I can drive both ways.
+p1344
+aVI'm heading to Austin on Thursday/Friday 3/24/2016 evening after 9pm or Friday morning before noon. I can drop you off for $40 dollars. Price is negotiable. show contact info
+p1345
+aVI will take you anywhere in the Houston area for a minimum fee of $25.
+p1346
+aVHi! Do you need a Ride?I'm a Friendly and trustful driver for all your driving needs, serving the Metropolitan area of Houston: major Airports, Hotels, Night Clubs, Pubs, Shopping Centers, Ride to Work, Doctor Appointments, Trips to the Rodeo and more.I drive a small economical BMW compact car available to your service. *) Please send me an email, text or call me including your starting and ending destinations. So I can give you an estimate
+p1347
+aVCar is destroyed. Need a ride to work for the next week and a half until I can get some more transportation. If anyone is riding from the U of H or TSU area and is heading towards Missouri City, I can pay 10 to 15 dollars per day for a ride. I get off around 4:30. I do personal training so I could also work you out for free if you're trying to loose weight or get in shape. I'm currently in the University of Houston area, I do need transportation for about the next week and half to and from work please.
+p1348
+aVHey!Driving back to NOLA at some point tomorrow afternoon. I have room for one person (I have skis that would make it hard to fit more), and you can hop in if...-you're willing to split cost of gas (and possibly a quart of oil... my car is older and can burn through it lol)-we talk on the phone first-are down for a variety of music and participate in some kind of conversation -be willing to make little sightseeing stops in Lake Charles and/or Lafayette Can drop you off pretty much anywhere in NOLA. shoot me a text would be best.Cheers,Marissa
+p1349
+aVStuck in Houston since flooding closed I10 and now don't have money for bus ticket it was all spent on Hotels. Looking for a good Samaritan to help with a ride back to Louisiana, missed a ride 2 days ago only because I thought a bus ticket was purchased for me....please help.
+p1350
+aVAnyone need a ride to or from the airport or anywhere in houston call me show contact infoim available everyday until 3pm
+p1351
+aVHey there I'm Dave I'll be leaving here shortly if you are looking to get to Austin or somewhere along the way, chip in on gas and let's roll!
+p1352
+aVNo more trip suprises from Taxi's I have chap flat ratess starting at $10.00Depends on how far destination is..Airpot pickups/dropoffs Hobby and Bush Airport Anywhere in Houston metro!Textshow contact infofor a quoteAvailable all day on weekends.
+p1353
+aVNeed a ride? Pickup or Drop off? Airport pickups? Store run? I have a Smart Car.. gas saver Starting at $10.00I am available weekends all day and night. Monday thru Friday after 5pm only. Text meshow contact infoI live in Southeast Houston.
+p1354
+aVTruck driver heading to Washington State Monday. Will be going through NM, CO, UT, ID, OR, and WA.
+p1355
+aVTgrl needs ride Beaumont asap Will be extremely appreciative two gentlemen who can help her out
+p1356
+aVHi! Do you need a Ride?I'm a Professional Friendly and trustful driver for all your driving needs, serving the Metropolitan area of Houston: major Airports, Hotels, Night Clubs, Pubs, shopping centers, business appointments, ride to work, doctor appointments, trips to the Rodeo and more.I drive a small economical BMW compact car available to your service. *) Please send me an email, text or call me including your starting and ending destinations. So I can give you an estimate
+p1357
+aVLooking to see if any churches in Pasadena can offer medical transportation for a disabled amputee female or maybe if a social worker or social services See's this plea for help someone will contact me !! I don't know where else to seek ride's to my doctor's !!!
+p1358
+aVThere is a car I'm looking to ship. It has no doors, engine, or transmission. I would like to ship it from Houston to falls church Virginia. Please call me or email me.
+p1359
+aVI'm headed up to Austin tommorow around Saturday 8-9am for SXSW. Offering a ride to Austin if you can keep me company and deal with me listening to EDM. Dropping off around north Austin where I need to go. Offering gas money also works. I'm asian and I drive an SUV. I can pick you up if you're on my way, if not then i'm too lazy to go out of my way. I'm only gonna take one person for my safety. I do require a picture if you choose to email me because i'll be blunt if you look like a threat to my life then it ain't gonna happen. You will get a picture back via snapchat, instagram, whatever. going to bed good night! No phone number listed sorry. Don't need text spam
+p1360
+aVSprinter Van load from Texas to Colorado departing 3/22 or after.Will pass through OKC, Kansas City, Omaha NE and may go to Chicago and St Louis. before returning to Denver CO. Can ship your items cargo and freight. Experienced shipper with over 50 reviews on USHIP.Contact me with item(s), dimensions and weight for a quote. Can also pick up in San Antonio, Austin or DallasThanks!
+p1361
+aVIn need of a ride ? Offering transportation in Houston and surrounding areas including Dallas,Austin & San Antonio.No out of state locations outside of Texas.Professional service and clean 2016 vehicle.Cash upon pick up for all clients no exceptions.Must have valid address for pick up and drop off.Call or text for rates.Thank You for your business...Contactshow contact info
+p1362
+aVLincoln mkx $$$$15,0002011 Leather87 miles Perfect condition , no problem , almost new!!! Se habla español!!
+p1363
+aVHey y'all, I'm flying to Houston tonight for work next week and I'm gonna shoot up to Austin instead by rental car tonight and chill with friends as I don't know anyone in Houston. Will be leaving around 11.30pm from the airport if anyone needs a ride, share fuel, laughs etc. get at me. A little about me - 28 yo New Zealand guy, based in New York. Loves rugby and cricket
+p1364
+aVHey there. Anyone have a truck with a hitch that's planning a trip to Florida anytime this year, ideally the Tampa area.I need a small vintage travel trailer towed there from downtown Houston, pretty close off the interstate.Its only 15 feet long and a ford ranger or a Nissan xterra have both towed it, so just requires the minimum weight tow hitch. I will pay all your gas plus a bit more(thinking maybe $100???) So look at it as a free trip toFl.Thanks!
+p1365
+aVStuck in Houston trying to get back to Louisiana, have used all my funds staying in hotels waiting for greyhound to start routes back up and it isn't happening soon now I'm broke...anyone that can help it would be greatly appreciatted.
+p1366
+aVJust drove from New Orleans To Houston now driving back anyone need a ride please callshow contact info
+p1367
+aVI got stranded by my MegaBus because of flooding, does anyone happen to be going East to NOLA right this minute or within the next couple days?? I will gladly help with gas. Im in the Katy area. Hmu if youre a saint plz.J
+p1368
+aVI am a truck driver and I'm leaving tomorrow sometime after noon I'm going to Chicago Illinois if anyone needs a ride out there let me know I am also very 420 friendly and I speak Spanishshow contact infoBlanco
+p1369
+aVFor trips to functions and jobs call jason. For cheap, fast and reliable transport to all parts of Houston city, callshow contact infoGuaranteed quality service
+p1370
+aVMY NAME IS MARCUSI CAN HANDLE ALL YOUR DRIVI NG NEEDS: FROM TRIPS TO & FROM THE AIRPORT,DOCTOR VISITS,SHOPPING TRIPS,BAR OUTINGS TO AVOID EXPENSIVE DUI'S,ANY AND ALL DRIVING NEEDS.MY RATES ARE CHEAPER THAN ANY TAXI OR SHUTTLE SERVICE IN THE AREA.MY RATES ARE VERY AFFORDABLE AND NEGOTIABLE. IF YOU HAVE NO LICENSE DUE TO SUSPENSION OR DUI CHARGES.I CAN HANDLE THOSE DRIVING NEEDS AS WELL, FROM PICK UP AND DROP OFF FROM YOUR RESIDENCE TO YOUR PLACE OF WORK.I OFFER ON TIME PICK UP & DELIVERY TO YOUR DESTINATION, ON TIME, EVERY TIME.I CAN BE REACHED ATshow contact infoI AM LOOKING FORWARD TO SERVICING ALL YOUR DRIVING NEED
+p1371
+aVMY NAME IS MARCUSI CAN HANDLE ALL YOUR DRIVI NG NEEDS: FROM TRIPS TO & FROM THE AIRPORT,DOCTOR VISITS,SHOPPING TRIPS,BAR OUTINGS TO AVOID EXPENSIVE DUI'S,ANY AND ALL DRIVING NEEDS.MY RATES ARE CHEAPER THAN ANY TAXI OR SHUTTLE SERVICE IN THE AREA.MY RATES ARE VERY AFFORDABLE AND NEGOTIABLE. IF YOU HAVE NO LICENSE DUE TO SUSPENSION OR DUI CHARGES.I CAN HANDLE THOSE DRIVING NEEDS AS WELL, FROM PICK UP AND DROP OFF FROM YOUR RESIDENCE TO YOUR PLACE OF WORK.I OFFER ON TIME PICK UP & DELIVERY TO YOUR DESTINATION, ON TIME, EVERY TIME.I CAN BE REACHED ATshow contact infoI AM LOOKING FORWARD TO SERVICING ALL YOUR DRIVING NEED
+p1372
+aVHi.I am heading west to Tuscon either late tonight (Thursday the 17th) or Friday morning. I have a truck so I could fit a couple of your things if you need. Please call or text. I'll be on the road from New Orleans all day today.Please call or text - don't email. If I don't answer, leave a message.Thanks.Justin
+p1373
+aVDisabled amputee looking for someone in PASADENA OR CLOSE to give rides to medical appointment's will compensate your gas if reasonable as I'm on a disability income !! Please be willing to be reliable !! Needing ASAP !!
+p1374
+aVI will be traveling to Dallas (Plano) from Houston Bush Airport area on Friday (3/18) around 3ish and will be returning on Sunday (3/20) afternoon. Contact me if you want to share a ride. I can offer door to door for additional $$ Thanks,Kumar
+p1375
+aVFor trips to functions and jobs call jason. For cheap, fast and reliable transport to all parts of Houston city, callshow contact infoGuaranteed quality service
+p1376
+aVanyone need a ride to or from the airport or anywhere in houston call me im available mon - sun 5am thru 3pm show contact info
+p1377
+aVAloha I'm Diamond just arrived in Houston needing to head out west as possible probably going to hitch hick for a bit then set up tent and wake up early and do it again need to be out west early as possibles
+p1378
+aVmy friend and I are stuck in jersey village and really need to get to Temple or Austin. 2 people with backpacks. Willing to gas jug. Call/text if you can help us
+p1379
+aVGoing from Houston Hobby to Austin TODAY (Wednesday the 16th) as soon as possible. It's 2:00 pm now. Our ride fell through and we're renting a car, looking for some other riders to split the cost. Contact me ASAP if you want a ride. Thanks!
+p1380
+aVHi we need a ride to Austin today from either Hobby Airport or 77077 ... from Hobby we can pay up to $60 from 77077 we can pay up to $30 --- thanks
+p1381
+aVanyone going to austin I desperately need a ride, don't have a lot of funds but can definately do my best to pitch in and pay for most of the gas
+p1382
+aVDidn't have enough money to catch the Amtrak just need a ride to Fresno California to see my sister for her birthday trying to get there before Saturday please anyone text me and let me know if your available for a pick up
+p1383
+aVI'm going to South padre this week if you need a ride hit me up
+p1384
+aVHey guys. I'd got with someone from Craigslist for transportation to work and they disappeared on me. I really need a ride. It's $40 every time I get paid. So $80 a month for you. If you could help, please email or text me. Thanks.
+p1385
+aV28/m with an eclectic personality - bring your stories - is leaving today for Austin. Time is flexible. Looking for a cool person or people to share the ride. Car is a 2 door, 4 seat 2000 Grand Prix.
+p1386
+aVI'm offering low rates to any in Houston. I have a clean 2014 Toyota Camry. Call or text me your pick up and destination address; I also drive out of state! show contact info
+p1387
+aVI'm offering low rates to Austin all week so you can have fun at SXSW. I have a clean 2014 Toyota Camry. Call or Text me with a pickup and drop off address for a quote! show contact info
+p1388
+aVTwo guys, two dogs. Were two long time travellers and having trouble gettin out of houston. Trying to meet up with friends in austin. Our dogs are very well behaved...and we are too. It'd be a big favor. Can aquire funds if necessary. Please contact at show contact infoby call or text.
+p1389
+aVHi, I'm looking for a ride to Ultra Music Festival from Houston, if anyone is going that way or has space?
+p1390
+aVHey there im landing in Houston on tuesday 3/15 at 1030am and dont feel like taking a greyhound to NoLa. Im flying in from Denver but im 25 n from Boston. I can supply $40 gas money, witty banter, and New Orleans recommendations since I lived n bartended there all last year. Get at me at show contact infoThanks!
+p1391
+aVhave online friend out of luck and in pain from bad medical from being poor and sits waiting for surgery now with jaw now needed to be replace and skin grafted from infection of absessed tooth mistreated.Hope to get her a ride to downtown houston er for immediate care and relief while waiting for adminto place her on list for luckless folks last in line
+p1392
+aVHello I need a ride from Houston TX to Kaufman TX March 23rd let me know if anyone is available to take me. Thanks so much.
+p1393
+aVIF YOU KNOW MANUEL TRIVINO MORA WHEREABOUTS.......GIVE HIM A MESSAGE TO CONTACT ME.....PAT FROM HIS PAST......brother.....Bobby....sister Morine....mother Josie....stepfather....Dewayne...he is 60 years old
+p1394
+aVhey i am looking for a ride to austin tomorrow at noon! ANYBODY TRAVELING TO AUSTIN FOR SXSW? COOL!
+p1395
+aVHello, this is a last resort option. I never would have thought I'd be posting an ad like this. Me my spouse and two young children 4yrs and 10mnths came to texas from oregon a couple months ago to live with family we didn't know to start a life, and now are stranded with no money, no transportation and only a place to stay for a couple days. I've called numerous churches and organizations here in houston to which no one can help get us home to oregon. I guess what I'm asking is maybe a donation of train or bus tickets or even just some info on how to get a little help. Thank you anyone for reading this and have a blessed day.
+p1396
+aVTrying to get to New Orleans anyday. I have gas pitch. Contact Casey at show contact info
+p1397
+aVI'm driving a Honda Accord with trailer to Portland Oregon sometime this week have room for one maybe 2 people in the car and have a lil space in the trailer for ur stuff. I need help with driving part and some gas... I'm going thru New Mexico-Arizona-California to Oregon
+p1398
+aVHi!.. Do you need a Ride?I'm a Professional Friendly and Trustful Driver for all your driving needs, serving the Metropolitan area of Houston: major Airports, Hotels, Night Clubs, Pubs, Shopping Centers, Ride to Work, Doctor Appointments, Trips to the Rodeo and more.I drive a small economical BMW compact car available to your service. *) Please send me an email, text or call me including your starting and ending destinations. So I can give you an estimate
+p1399
+aVHi! Do you need a Ride?I'm a Friendly and trustful driver for all your driving needs, serving the Metropolitan area of Houston: Major Airports, Hotels, Night Clubs, Pubs, Shopping Centers, Ride to Work, Doctor Appointments, Trips to the Rodeo and more.I drive a small BMW compact car available to your service. *) Send me an email, text or call me including your starting and ending destinations. So I can give you an estimate
+p1400
+aVHi! Do you need a Ride?I'm a Professional, Friendly and trustful driver for all your driving needs, serving the Metropolitan area of Houston: Major Airports, Hotels, Night Clubs,Pubs, Shopping Centers, Ride to Work, Doctor Appointments, Trips to the Rodeo and more.I drive a small economical BMW compact car available to your service. *) Please send me an email, text or call me including your starting and ending destinations. So I can give you an estimate
+p1401
+aVAnyone need a ride to or from the airport or anywhere in houston call me im available anytime until 3pm mon thru sun show contact info
+p1402
+aVRide sought for two people on March 16th from Houston Hobby to Smithville which is 45 minutes shy of Austin (on the way to Austin). Can leave any time after 1pm. Will pay for gas. Thanks!
+p1403
+aVHeading to Baton Rouge and can drop you along the way in Beaumont lake Charles Lafayette or to Baton Rouge.Please text me if you can share expenses.Thanks
+p1404
+aVHi my name is Tyler I'm a 22 yo male. I'm stranded in Houston cause I basically have all my money to help my grandmother with her cancer treatments and now I'm stuck I am looking for help to get home in North Carolina basically all I have left is $6 I really need to get home message me soon I've been stranded here for three days
+p1405
+aVFor sale engine 133 miles in good condition tramision in good condition electric seats driver seat a little tear but still good ..
+p1406
+aVAnyone need a ride to or from the airport or anywhwhere in houston call me im available mon thru sun 5am thru 3pm show contact info
+p1407
+aVI was moving to Louisiana to help elderly family with my daughter I've missed my bus nd the tickets have gone up witch leaves me short nd stranded I have gas money to offer to get close as possible
+p1408
+aVHi I'm Tyler a 22 yo male that got screwed by his family and stranded with no cash in Houston all I'm asking for is a ride torwards North Carolina. I can get you money once I get back home reply back soon my phone doesn't work at Ive been here since 7:40 yesterday night
+p1409
+aVI stay in spring I have a truck and offering cheap rides if ur near bye from 30$ and up my phone# show contact infoallso if u just need a truck to move heavy large items call me or text me
+p1410
+aVFor trips to functions and jobs call jason. For cheap, fast and reliable transport to all parts of Houston city, callshow contact infoGuaranteed quality service
+p1411
+aVI am offering out of state ride at an affordable rate today Friday to anywhere. I have 2014 Camry and will prefer morning trip.Call or text meshow contact info
+p1412
+aVHi my name is Tyler and I'm stranded at the greyhound station. Back story is I spent all my money to get here for my grandmas funeral now it's time to go home to North Carolina I'm looking for a ride out of town that can get me started on my journey home I can send money back in just in a rough spot right now email me if you can help. I'm sitting at the greyhound station where I have been since 7:40pm last night I need help
+p1413
+aVAnyone need a ride to or from the airport or anywhere in houston call me im available 5am thru 3pm mon thru sun show contact info
+p1414
+aVHey everyone, just trying to get back home to the West coast. Anywhere about Los Angeles area, socal, even Phoenix would work for me. I'm 25, male and very experienced in long distance driving, I've actually made this drive a few times. Don't smoke or drink, just me and my bag trying to get home, can leave as soon as Monday. Please contact me and Let's head West! Thanks!
+p1415
+aVHi, cook moving to start a job in midtown nola. Just one big bag and a box. I'm 33, have a license and happy to chip in.Let me know!
+p1416
+aVPolite, nice guy needs cheap ride to Austin today. Can pitch in $15 for gasThxChuckhttps://www.facebook.com/chuck.leroy.thomas
+p1417
+aVI will be offering cheap ride to anywhere out of Houston. I have a clean 2014 Toyota Camry.Call or text me.show contact info
+p1418
+aVI am trying to get to Corpus area.. If you have room for someone to ride with u please call me... I can leave anytime after 6pm onThursday or anytime Fri..I CAN GET A RIDE TO MEET U..
+p1419
+aVReturning to Houston today and offering a ride back to Austin, later this evening after 9 pm, march 10th houston to austin, leaving tonight, or early am March 11th. also let me know if you are willing to help with driving and contribute. contact me with phone number. thanks.
+p1420
+aVAnyone need a ride to or from the airport or anywhere in houston call me show contact info
+p1421
+aV24/7 TRANSPORTATION AVAILABLE (HOUSTON & SUBURBS)24/7 TRANSPORTATION AVAILABLE @ VERY REASONABLE FARE IF YOU ARE LOOKING FOR SOMEONE WHO CAN DRIVE YOU SAFELY AND ON TIME PLEASE CONTACT .show contact info
+p1422
+aV24/7 TRANSPORTATION AVAILABLE (HOUSTON & SUBURBS)24/7 TRANSPORTATION AVAILABLE @ VERY REASONABLE FARE IF YOU ARE LOOKING FOR SOMEONE WHO CAN DRIVE YOU SAFELY AND ON TIME PLEASE CONTACT .show contact info
+p1423
+aV24/7 TRANSPORTATION AVAILABLE (HOUSTON & SUBURBS)24/7 TRANSPORTATION AVAILABLE @ VERY REASONABLE FARE IF YOU ARE LOOKING FOR SOMEONE WHO CAN DRIVE YOU SAFELY AND ON TIME PLEASE CONTACT .show contact info
+p1424
+aVtoday only Driving into Houston in the next few hours. Just have a licence and be willing to drive. Heading to east Austin or where ever you need to go
+p1425
+aVHello! I am a 28 year old male traveling solo from Houston to Austin as soon as possible today. I love good conversation so bring your intellectually stimulating dialogue and I'll bring Spotify. I don't have a preference of male/female (and obviously no preference as to race or sex/gender identity), just looking for a fun person or three to make the ride less boring. Let's go!I make this trip often. If the ad is still up, try contacting me even if you're not going today.
+p1426
+aVIf anyone wants to share a ride with me weekdays from Pearland to town in the morning, I leave around 6:15 am in the mornings. I prefer a regular rider. Split gas / small daily or weekly fee / about the same time every morning is best. I have a new model Ford F150 truck (super crew cab). It's very nice and comfortable. I can pick up around New Pearland and go most anywhere into the city (definitely not past beltway north or east) but I really don't want to go above the North Loop unless daily. If you want a safe, regular ride please get in touch with me and I will respond.Thanks!
+p1427
+aVI'm looking for a little cat for my kids, I prefer 3 to 4 months, send me pictures and ubication. It doesn't matter the gener. only text.
+p1428
+aVanyone need a ride to or from the airport or anywhere in houston call me im available anytime mon thru sun 5am thru 3pm
+p1429
+aVIn need of a ride ? Offering transportation in Houston & surrounding areas including Dallas,Austin & San Antonio.No out of State locations outside of Texas.Professional service and clean 2016 vehicle.Cash upon pick up for all clients no exceptions.Must have a valid address for pick up and drop off.Call or text for rates.Thank You for your business...show contact info
+p1430
+aV24/7 TRANSPORTATION AVAILABLE (HOUSTON & SUBURBS)24/7 TRANSPORTATION AVAILABLE @ VERY REASONABLE FARE IF YOU ARE LOOKING FOR SOMEONE WHO CAN DRIVE YOU SAFELY AND ON TIME PLEASE CONTACT .show contact info
+p1431
+aV24/7 TRANSPORTATION AVAILABLE (HOUSTON & SUBURBS)24/7 TRANSPORTATION AVAILABLE @ VERY REASONABLE FARE IF YOU ARE LOOKING FOR SOMEONE WHO CAN DRIVE YOU SAFELY AND ON TIME PLEASE CONTACT .show contact info
+p1432
+aV24/7 TRANSPORTATION AVAILABLE (HOUSTON & SUBURBS)24/7 TRANSPORTATION AVAILABLE @ VERY REASONABLE FARE IF YOU ARE LOOKING FOR SOMEONE WHO CAN DRIVE YOU SAFELY AND ON TIME PLEASE CONTACT .show contact info
+p1433
+aV24/7 TRANSPORTATION AVAILABLE (HOUSTON & SUBURBS)24/7 TRANSPORTATION AVAILABLE @ VERY REASONABLE FARE IF YOU ARE LOOKING FOR SOMEONE WHO CAN DRIVE YOU SAFELY AND ON TIME PLEASE CONTACT .show contact info
+p1434
+aV24/7 TRANSPORTATION AVAILABLE (HOUSTON & SUBURBS)24/7 TRANSPORTATION AVAILABLE @ VERY REASONABLE FARE IF YOU ARE LOOKING FOR SOMEONE WHO CAN DRIVE YOU SAFELY AND ON TIME PLEASE CONTACT .show contact info
+p1435
+aVRide offered available. Get shopping done, cheaper than most but I am reliable. Day and evening commutes. show contact info
+p1436
+aVPlease visit our website for more information; www.houston24limo.comhttp://www.houston24limo.com/fleet.htmlhttp://www.houston24limo.com/reservation.htmlhttp://www.houston24limo.com/Birthday, Bachelor, Bachelorette, Anniversary, Quinceanera, Homecoming, school PROMLimousine Houston, Houston Suv limousine, limo bus, Houston limo rental, Houston limousine transportation Limo party Bu Limos.com suv Limo Houston24limo limo Houstonshow contact infoshow contact info
+p1437
+aVLeaving on Thursday around 2:30-3 PM, flexible on pick up and drop off. Looking for a $40-60 contribution depending on pick up location, time, etc.I'm male 30 yrs old, work in film and its my first time at SXSW so any tips are appreciated!
+p1438
+aVDriving to San Antonio 03/29.2016 and come back to Houston 03.30.2016 if you need ride and willing to share gas expenses let me know this message is only for Male's
+p1439
+aVWife, mother, SHSU student, Mary Kay rep, tutor, theatre lover drives to Huntsville every day and can transport you (female only) or any small items if you are in a time crunch and cannot wait for UPS, USPS, FedEx, Greyhound.Also willing to put your company logo on my car during my commute: financial services, legal, medical, etc.
+p1440
+aVanyone need a ride to or from the airport or anywhere in houston call me im available mon-sun 5am thru 3pm show contact info
+p1441
+aVSi usted tiene camioneta o van mellame. No son muchos mueblesHectorshow contact info
+p1442
+aVI am traveling to Rio Grande Valley, for work, and my car has just died, I dont want to fly, too much money, dont want to ride bus (smells and takes forever). Looking for a ride share partner, or someone who is going that way and wants to split the gas. I'll be agreeable to stop wherever to eat or get gas, just nothing weird. Need to leave latest Wednesday night, and be in Valley by Thursday 8AM.Thanks!
+p1443
+aVI need to be in Jacksonville, Florida by the evening of March 11. I am seeking a ride to Jacksonville around that time. I would also consider rides to Tallahassee or Gainesville. I'm an easy going travel companion, an experienced licensed driver, and I can chip in for gas. Let me know if you're heading that way!
+p1444
+aVI am looking for a ride to work daily from Greenspoint Area (45 and Rankin Area) to Work on FM 529 in Houston 77041 please email me with rates
+p1445
+aVHi my name Jason i have a small pickup truck i can take you to dr appointment, give u ride in town, go shopping get you a bite to eat, go to home depot or help you move im cheaper then a cab i only offer my service to these area cause you can not get a taxi in these area i have full coverage insurance on my truck book a trip (nine three six seven one four zero seven seven six) i need to know were pick up destination and drop off point to give you rate rate must be paid up front no checks only cash money if atm on the way it be no charge if atm not on way small fee
+p1446
+aVHello my name Jason i am cheaper then a cab and better then a cab i have pick up truck you need ride to store out to eat or shopping home depot i have a pickup truck that means i can haul stuff in bed of my truck please
+p1447
+aVAnyone need a ride to or from the airport or anywhere in houston call me im available mon thru sun 5am thru 3pm show contact info
+p1448
+aVHi,I'm going to: Tampa, FL (offering ride there or drop-off along the way)Leaving: Tuesday, March 8My car: reliable, well-kept 1998 Buick LeSabre (super comfy leather interior).I need from you: some gas money; Let me know how much you want to give to the gas fund.Call or text me at 702 - 3 two 3 - 4633-JamesPossible drop-offs:Beaumont, Lake Charles, Lafayette, Baton Rouge, New Orleans, Gulfport/Biloxi, Mobile, Pensacola, Tallahassee, Gainesville, Ocala, Tampa
+p1449
+aVSeeking a carpool or rideshare to and from Katy, Cinco Ranch area Monday-Friday starting on March 14, 2016.
+p1450
+aVAnyone need a ride to or from the airport or anywhere in houston call me im available mon thru sun 5am thru 3pm show contact info
+p1451
+aVanyone need a ride to or from the airport or anywhere in the houston area call me im available everyday 5am until 3pm show contact info
+p1452
+aVLeave Irving on Friday late afternoons and leave Houston on Sunday late afternoons. One week I drive my car one week you drive your car. Only ride share and not interested in anything else. Thanks.
+p1453
+aVCheap ride decent price all round houston contact me for rates running a weekend special
+p1454
+aVAnyone need transportation in the houston area call me im available mon thru sun 5am thru 3pm show contact info
+p1455
+aVFor cheap, safe ride to any part of Houston city or Texas state call show contact info
+p1456
+aVI'm available Friday evening,Saturday and Sunday to give rides throughout Houston. Just give me your address , destination, and offer price. Let's negotiate show contact info
+p1457
+aVLooking for a ride weekdays from Clear Lake to an evening job that will either be in the Heights or elsewhere in the Inner Loop.Leaving: 1-3pm (3pm preferred).Returning: Take me either from the Park & Ride to Clear Lake around 1:45am; or from my place of work all the way to Clear Lake picking me up at 12:30am (later is even ok if you're coming from a job).The Park & Ride option can be either Fuqua or Bay Area P & R.I'll cover all the gas (and add a tiny bit if you're not commuting - cannot afford anything approaching a cab [or alternative cab company] rate so please don't expect that).I'm expecting around 4 days/week; but days and hours may vary.About me: 31, Male, bilingual in Spanish, friendly, NO drama; looking for someone whose car doesn't smell like smoke of any kind.Let me know if we can work something out - thank you so much!
+p1458
+aVHowdy. I'm seeking a ride from Houston to Asheville, North Carolina sometime between March 5 and March 8. I am a friendly and easy going travel companion, an experienced licensed driver, and i can chip in for gas. Let me know if you're heading that way!Cheers,Drayton
+p1459
+aVAnyone need a ride to or from the airport or anywhere in houston call me im available 5am thru 3pm show contact info
+p1460
+aVAny one need a ride to or from the airport or anywhere in houston call me im available everyday 5am thru 3pm show contact info
+p1461
+aVI will be driving to Louisville, KY on the 25th of March, most likely will do night driving. I have a full size car can take three other people with one bag only. Gas will be split 50/50 and I might need some help driving (I will need to see a drivers license before we leave), I like all kinds of music and talking about things that matter. I don't enjoy talking about sports, hollywood, or anything else that is a waste. Other than that hit me up and let me know. You can contact me by text which is best for me, thanks.
+p1462
+aVanyone need a ride to or from the airport or anywhere in houston call me im available everyday until 3pm show contact info
+p1463
+aVHi, I need a ride to & from a doctors appt on Friday 3/4/16 @ 10:00 am & dropped back off at pick up location when finished. I'm leaving N. Wayside 77028 & I'm going to San Jacinto St 77004. Total trip is less than 15 mins each way. I can give you gas money. I'm looking for someone that's trustworthy & dependable. Thank you!!!
+p1464
+aVHello Driving from Woodlands to Plano tomorrow. Have room for one passenger. Drivin back probably Saturday or sunday but still not sure. Hit me up if you wanna hitch a ride. Thanks
+p1465
+aVHello,I plan to walk in the 5K Race Against Violence and I need a ride to and/or from the race start location on Waugh Dr on 3/16/2016 at 6am. Is there anyone on here running/walking the 5K that could give me a ride this Saturday? I would greatly appreciate it.Jess
+p1466
+aVAnyone need a ride to or from the airport or anywhere in houston call me im availavble anytime until 3pm show contact info
+p1467
+aVHello!I am trying to get to Arizona for work, but my winter season has left me a bit short on cash. So if you have the gas money I have the vehicle :) Also, I'm in a pretty bad situation here in terms of housing, and would like to leave as soon as possible. I drive a pickup truck, so unless you are trying to move your entire house I have room for your stuff, and this ride will also welcome your furry companion should you have one. I look forward to hearing from you!Jessica
+p1468
+aVEn excelentes condiciones no golpeados ni rayados nuevesitos..\ufffd show contact info
+p1469
+aVI'm driving a pickup to Denver in the next couple of days and looking for cargo or passengers. Please tell me about you or what you're shipping?
+p1470
+aVI really don't have any money, but I can work something out.
+p1471
+aVLeaving for Dallas in a full size pickup.Will depart downtown Houston around 12pm.Anyone need a ride?Will also be returning Thursday night.
+p1472
+aVAnyone need a ride to or from the airport or anywhere in houston call me show contact info
+p1473
+aVanyone need a ride to or from the airport or anywhere in houston call me im available mon-sun 5am thru 3pm show contact info
+p1474
+aVPlease be smarter on how you plan your out of town trips. We can teach you how to have fun while saving money with this unique system. Its up to you how u spend ur money; its our job to help you do smarter planning. Starting your own real estate investing business has the best benefits ever. You probably knew that already but never knew how to start... Text me right now and ask how you can help your family gain passive income and financial freedomnumber:show contact info
+p1475
+aVSingle mom and sister...with 4 kids needing ride out of lufkin to houston....please help...have some money for gas.
+p1476
+aVAre you willing to take payments? Im in desperate need of a reliable vehicle for my job sake and kids that now reside in galveston and Louisiana that im unable to take care of our see without a car i can pay 100 a week or 200 every 2 weeks or 350 a month
+p1477
+aVAnyone need a ride to or from the airport or anywhere in houston call me im available anytime until 3pm show contact info
+p1478
+aVYessie's the nameI'm in Houston and need to get to Austin. I have two well behaved awesome dogs: medium and small sized. Need to get to Austin a.s.a.p. Please help me out.
+p1479
+aVHello, Need to catch a ride to Florida or Georgia either tonight or tomorrow. If anyone is headed that way or passing through please consider letting me ride along. I can help with gas and driving if needed. Really need to get home. Please feel free to ask me any questions.
+p1480
+aVAny one need a ride to or from the airport or anywhere in houston call me im available anytime until 3pm mon thru sun show contact info
+p1481
+aVHey!Seeking travellers passing through Shreveport, La.I don't have a set destination, but would prefer a long-distance road trip. If you have room for one more, let me know. Have any questions, just ask! :) Sara
+p1482
+aVWell, I know it is short notice but if anyone is going to San Antonio Today, Monday morning February the 29, I would like to ride along with you.I'm a male and will provide references if needed.Thanks!
+p1483
+aVLooking for a ride from Houston Rd to Gulfport Miss
+p1484
+aVAnyone need a ride to or from the airport or anywhere in houston call me im available anytime until 3pm show contact info
+p1485
+aVHi! So I'm needing a professional driver for 3 separate occasions. I need someone to drive me & my pooch.. To & From his Vaccination appointment...Thursday morning (March 3rd) I'm also needing a driver for Monday...March 14th to the George Bush Airport.... My Flight departs at 3:00PM..But prior I need to drop my puppy off at Doggie Day Care... then head to the airport. So available start time needs to be at 11AM. I'd rather be hours early at the airport than to be running late. I also kind of want someone to walk me through the airport... Yess this is my first time ever flying by myself & I do think I'll most definitely need help to get the right place. I don't even know which one comes first checking my bag or standing through the security line. Haha. I'll most definitely tip an extra $15 for helping me to get the correct terminal. I fly back in on Monday... March 21st around 6:30PM. I need someone to pick me up from the airport... then to the Doggie Day Care.. then Finally home for me.I Can't Stress this ENOUGH please be VERY dependable. Accountability is a MUST. For one, with transporting my puppy... I can't have someone cancel the day of my flight leaving Houston because I would have to scramble looking for someone else willing to transport us. & I do know, not everyone want a dog in their car...As far as my dog... He's medium size, less than or equal to 30 lbs. & yes he's well behaved in the car. He'll most likely sit at my feet. Each time I'll pay of course an reasonable rate/price ... I'm willing to pay up to $30 for the first trip on March 3rd. (I'll give you the money when we are headed back to my home after his appointment not while I'm in there) For March 14th I'm willing to up to $50 & For March 21st pick up from the Airport.. to the Day Care...& Home.. I'm willing to pay up to $50 also.Serious Replies ONLY. Thanks 
+p1486
+aVLeaving from Houston to Austin Sunday morning Feb. 28th.Leaving between 9am / 10amWill give a ride for $15
+p1487
+aVHeading east to Baton Rouge LA and can drop you along the way. Please be able to share expensesThanks
+p1488
+aVPlease visit our website for more information; www.houston24limo.comhttp://www.houston24limo.com/fleet.htmlhttp://www.houston24limo.com/reservation.htmlhttp://www.houston24limo.com/Birthday, Bachelor, Bachelorette, Anniversary, Quinceanera, Homecoming, school PROMLimousine Houston, Houston Suv limousine, limo bus, Houston limo rental, Houston limousine transportation Limo party Bu Limos.com suv Limo Houston24limo limo Houstonshow contact infoshow contact info
+p1489
+aVIm looking for a ride from houston tx to dallas tx within the next 24 hours. I will not need a ride back, as dallas is my home. Im a 25 year old girl and I'm from dallas. I can throw down on gas as long as its a reasonable amount. If you can help please text or email me. No creepers please. Thank you.
+p1490
+aVanyone need a ride to or from the air port pr anywhere in houston call me im available anytime until 3pm show contact info
+p1491
+aVanyone need a ride to or from the airport or any where in houston call me im available anytime mon thru sun 8am thru 3pm show contact info
+p1492
+aVHey! We have a bachelor party and I'm trying, unsuccessfully, to find transportation for 16-18 people from Crystal Beach to Galveston. We don't necessarily even need to be in the same vehicle. We need to get from Crystal Beach into Galveston, and we need to arrive in Galveston to Riondo's where we have reservations for dinner at 9:30pm. I'm thinking a 7:30pm pickup would be safest due to the ferry ride... Apparently there's a ferry involved and that's where we are struggling. I live in Denver and am trying to arrange this before I fly in tomorrow, and I know nothing about Galveston but have so far found the cab and limo companies to be super unhelpful. We don't want a party bus for 4 hours, we are just looking for transport. We would also be interested in a ride back later in the evening but we could deal with cabs if we can't find a ride back. Any takers?
+p1493
+aVI am available evenings, fridays after 11am and weekends to provide transportation services in clean, smoke free vehicle from Bush Airport, Humble, Spring, Woodlands areas. I have never been in an accident or had a ticket. I can accommodate 3-4people. This is a non smoking, non food ,non beverage vehicle. Prices range according to distance and waiting times, but very reasonable. Please text if you need a ride sooner than later for availability. .Cash only . Thank you
+p1494
+aVOn the 14 of March im going to Victoria if anyone wants to join and pay half text me to show contact info
+p1495
+aVAm offering Ride from Houston Tx to Princeton NJ (can't accommodate much luggage..just a small bag) on monday 29th evening...
+p1496
+aVI have live in Spring (N. Houston). If you need a small load moved in the local area I can help.Fair price. Prefer to stay in the N. Houston area but open to going beyond if the price is rightI understand how frustrating it can be to need to move something and to be without a truck to do so.Call me and let me and my truck help you.Advance notice is always great Prefer text or phone call. show contact info- Jason
+p1497
+atp1498
+ba(lp1499
+g15
+(g16
+(dp1500
+g18
+g19
+(g20
+(I0
+tp1501
+g22
+tp1502
+Rp1503
+(I1
+(I4
+tp1504
+g29
+I00
+(lp1505
+g33
+ag34
+ag35
+ag36
+atp1506
+bsg38
+Nstp1507
+Rp1508
+a(dp1509
+S'0.14.1'
+p1510
+(dp1511
+S'axes'
+p1512
+g14
+sS'blocks'
+p1513
+(lp1514
+(dp1515
+S'mgr_locs'
+p1516
+c__builtin__
+slice
+p1517
+(I0
+I4
+I1
+tp1518
+Rp1519
+sS'values'
+p1520
+g59
+sasstp1521
+bsb.
