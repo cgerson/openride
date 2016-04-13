@@ -1,3 +1,3 @@
 # openride
 
-#### make rideshare in America great again
+#### making rideshare in America great again
